@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2023 at 09:50 AM
+-- Generation Time: Aug 23, 2023 at 02:33 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 7.4.30
 
@@ -222,11 +222,11 @@ INSERT INTO `bs_user` (`user_id`, `emp_id`, `firstname`, `lastname`, `email`, `u
 (1038, '26', 'Ky-Ann', 'Buena', 'kyannbuena1995@gmail.com', 'admin_kyann', '82861a696b06270fe0caa1be09f52d30', 'kylazaro24', '', '09159125372', 'Durian St, Novaliches, Caloocan, Metro Manila', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, '2023-06-13 06:31:01', '6d70cb65d15211726dcce4c0e971e21c', 0),
 (1037, '25', 'Prescilla ', 'Nueva', 'brgy.novalichesproper@quezoncity.gov.ph', 'bcpc', '32c44b9262519affe62c5091bbb80364', 'bcpc', '', '89364485', 'none', '218ff16ce9ffb53db3acd1acc8c7e4ea.jpg', '47f854fcf0d2ca9ac286225b040efbc8.jpg', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, '2022-12-03 04:10:56', 'eddb904a6db773755d2857aacadb1cb0', 0),
 (1035, '', 'Cecilia', 'Ramos', 'brgy.novalichesproper@quezoncity.gov.ph', 'vawc', 'b8e6f0a50edbb97697d9437a0ba03fb3', 'vawc', '', '89364485', NULL, 'ccafed2ba5c8dc1c1315756d014a2833.jpg', '95a73bdc9c22cc82db938a4b65e75663.jpg', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '2023-06-13 06:30:58', 'a34bacf839b923770b2c360eefa26748', 0),
-(1002, '1600109', 'Asuncion', 'Visaya', 'brgy.novalichesproper@quezoncity.gov.ph', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'Senior Programmer', '09189246940', 'Bacolod City', 'c219de04526dbbc39e8afd37b5e12e94.jpg', '2c7258f06ecdfeec8a2d07674abc1c12.jpg', 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, '2023-06-19 07:17:08', 'fba9d88164f3e2d9109ee770223212a0', 0),
+(1002, '1600109', 'Asuncion', 'Visaya', 'brgy.novalichesproper@quezoncity.gov.ph', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'Senior Programmer', '09189246940', 'Bacolod City', 'c219de04526dbbc39e8afd37b5e12e94.jpg', '2c7258f06ecdfeec8a2d07674abc1c12.jpg', 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, '2023-08-16 23:09:26', 'fba9d88164f3e2d9109ee770223212a0', 0),
 (1043, '', 'Daniel', 'Cayari', 'danielzcayari@gmail.com', 'lupon', '7eb09bfb6d8bbb03469757c165b8a93d', 'lupon', '', '09286671936', NULL, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '2022-12-03 04:06:30', 'b9141aff1412dc76340b3822d9ea6c72', 0),
 (1044, '', 'Michael', 'Cid', 'brgy.novalichesproper@quezoncity.gov.ph', 'michael', '0acf4539a14b3aa27deeb4cbdf6e989f', 'michael', '', '89364485', NULL, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '2022-12-03 03:03:25', '1019c8091693ef5c5f55970346633f92', 0),
 (1045, '', 'Enrique', 'Anonuevo', 'brgy.novalichsproper@quezoncity.gov.ph', 'bii', 'd2e4c4af45a3ad7091bc632c7af8dea6', 'bii', '', '89364485', NULL, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '2023-03-27 08:24:19', 'a0e2a2c563d57df27213ede1ac4ac780', 0),
-(1046, '', 'MTech', 'Solutions', 'mspc.mtech@gmail.com', 'mtech', '37af231fcbd001ff1118f2efe55a82c5', 'mTech@23', 'SUPER SUPER ADMIN', '09954469583', NULL, '803b856330f1a732dc769b73f7be7d6f.png', '62d64a956657e2b5a4dcabf703911e7c.png', 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, '2023-06-15 07:53:19', '7e80cb65d15322726dcce4c0e971e32d', 0);
+(1046, '', 'MTech', 'Solutions', 'mspc.mtech@gmail.com', 'mtech', '37af231fcbd001ff1118f2efe55a82c5', 'mTech@23', 'SUPER SUPER ADMIN', '09954469583', NULL, '803b856330f1a732dc769b73f7be7d6f.png', '62d64a956657e2b5a4dcabf703911e7c.png', 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, '2023-08-16 23:09:26', '7e80cb65d15322726dcce4c0e971e32d', 0);
 
 -- --------------------------------------------------------
 
@@ -299,7 +299,10 @@ CREATE TABLE `tbl_badak` (
 
 INSERT INTO `tbl_badak` (`bdk_id`, `uid`, `status`, `bdk_unang_pangalan`, `bdk_gitnang_pangalan`, `bdk_huling_pangalan`, `bdk_trabaho`, `bdk_droga_natikman`, `bdk_alyas`, `bdk_numero_tel`, `bdk_droga_benta`, `bdk_kasarian`, `bdk_socmed_acct`, `bdk_droga_gamit`, `bdk_ktyng_sbl`, `bdk_relihiyon`, `bdk_droga_katagal`, `bdk_petsa_kpnkn`, `bdk_taas`, `bdk_droga_lugar`, `bdk_edad`, `bdk_bigat`, `bdk_droga_tao`, `bdk_lugar_kpnkn`, `bdk_kulaysamata`, `bdk_droga_illegal`, `bdk_ksk_lugar_trn`, `bdk_kulaysabalat`, `bdk_lugar_prbnsy`, `bdk_kulaysabuhok`, `bdk_testigo`, `bdk_edksyn_nkmt`, `bdk_tattoo`, `bdk_date_ac`, `is_deleted`) VALUES
 (20, '98f13708210194c475687be6106a3b84', 'Balay Silangan', 'lionel', 'andres', 'messi', 'football', 'cocaine', 'messi', '131312321', 'hindi', 'male', 'facebook', '1', 'married', 'roman catholic', '1 year', '1987-06-24', '5\'11', 'bahay', 35, '72kg', '2', 'Rosario, Argentina', 'blue', 'cartimar', 'argentina', 'white', 'none', 'black', 'mbappe', 'college graduate', 'both arms and left leg', '2023-06-09', 1),
-(21, '3c59dc048e8850243be8079a5c74d079', 'Arrested', 'Test', 'Test', 'Test', 'test', 'test', 'test', '9175481128', 'Test', 'test', 'test', '1', 'test', 'test', 'test', '2023-06-13', '5\'7', 'test', 23, '67kg', '1', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', '2023-06-13', 0);
+(21, '3c59dc048e8850243be8079a5c74d079', 'Arrested', 'Test', 'Test', 'Test', 'test', 'test', 'test', '9175481128', 'Test', 'test', 'test', '1', 'test', 'test', 'test', '2023-06-13', '5\'7', 'test', 23, '67kg', '1', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', '2023-06-13', 0),
+(22, 'b6d767d2f8ed5d21a44b0e5886680cb9', 'CBDRP Graduate', 'sample pangalann', 'sample gitna', 'sample huling', 'sample wala', 'sample ewan', 'sample pogi', '099999999', 'oo, lagi', 'Male', 'raionfayr', '2', 'Single', 'Catholic', '10yrs', '2000-01-01', '182', 'pasig', 23, '65', '1', 'Cainta', 'blue', 'sa tropa ko ', 'samin', 'white', 'ewan', 'black', 'si jay ar', 'college graduated', 'wala', '2023-06-22', 1),
+(23, '37693cfc748049e45d87b8c7d8b9aacd', 'Balay Silangan', 'Hugo ', 'Norda', 'First', 'Tambay', 'Shabu-shabu', 'pepe', '09923462451', 'Lagi', 'Lalake', 'Facebook', '3', 'Single', 'Catholic', '10 years', '1995-06-19', '192', 'Pasig', 23, '70', '1', 'Cainta', 'black', 'samin', 'Antipolo', 'White', 'Cebu', 'Ash ', 'Lynne ', 'College Graduate', 'Birth mark', '2023-07-19', 0),
+(24, '1ff1de774005f8da13f42943881c655f', 'Balay Silangan', 'g', 'jkh', 'gkj', 'jkgjk', 'gjk', 'gjk', '232', 'jkk', 'jjk', 'gjk', '1', 'asd', 'sad', 'asdas', '2023-08-21', '23', 'asds', 223, '324', '1', 'sdas', 'sad', 'sad', 'sad', 'sad', 'asd', 'asd', 'sad', 'sad', 'asd', '2023-08-14', 1);
 
 -- --------------------------------------------------------
 
@@ -404,6 +407,9 @@ CREATE TABLE `tbl_blotter` (
   `natureofcase` varchar(180) DEFAULT NULL,
   `prepared` varchar(50) CHARACTER SET latin1 DEFAULT NULL,
   `created_by` varchar(50) DEFAULT NULL,
+  `image` varchar(50) DEFAULT NULL,
+  `thumbnail` varchar(50) DEFAULT NULL,
+  `uid` varchar(50) DEFAULT NULL,
   `is_deleted` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
@@ -411,10 +417,11 @@ CREATE TABLE `tbl_blotter` (
 -- Dumping data for table `tbl_blotter`
 --
 
-INSERT INTO `tbl_blotter` (`bl_id`, `status`, `blotter_no`, `time_created`, `date_created`, `complainant`, `complainant_address`, `respondent_firstname`, `respondent_middlename`, `respondent_lastname`, `respondent_address`, `time_reported`, `date_reported`, `place`, `origin`, `article`, `facts_case`, `disposition`, `natureofcase`, `prepared`, `created_by`, `is_deleted`) VALUES
-(594, 'Settled', '1451241', '10:00 AM', '2023-06-09', 'Kylian Mbappe Lotti', '19th arrondissement, Paris, France', 'Lionel', 'Andres', 'Messi', 'Rosario, Argentina', '12:00 PM', '2023-06-09', 'Rosario, Argentina', 'Rosario, Argentina', 'Rosario, Argentina', 'Rosario, Argentina', 'Rosario, Argentina', 'Rosario, Argentina', 'Day Shift', 'Ronaldo', 1),
-(595, 'On-going', '313414', '12:00 PM', '2023-06-13', 'Sample Complainant', 'Sample Complainant Address', 'Sample Respondent First', 'Sample Respondent Middle', 'Sample Respondent Last', 'Sample Respondent Address', '11:00 AM', '2023-06-13', 'Sample Place', 'Sample Origin', 'Sample Article', 'Sample Facts', 'Sample Disposition', 'Sample Case', 'Day Shift', 'Sample Creator', 0),
-(596, 'On-going', '131231313', '11:00 AM', '2023-06-13', 'Samp Complainant', 'Sample Complainant Address', 'Sample Respondent First', 'Sample Respondent Middle', 'Sample Respondent Last', 'Sample Respondent Address', '11:00 AM', '2023-06-12', 'Sample Place', 'Sample Origin', 'Sample Articles', 'Sample Facts', 'Sample Disposition', 'Sample Case', 'Night Shift', 'Sample Creator', 0);
+INSERT INTO `tbl_blotter` (`bl_id`, `status`, `blotter_no`, `time_created`, `date_created`, `complainant`, `complainant_address`, `respondent_firstname`, `respondent_middlename`, `respondent_lastname`, `respondent_address`, `time_reported`, `date_reported`, `place`, `origin`, `article`, `facts_case`, `disposition`, `natureofcase`, `prepared`, `created_by`, `image`, `thumbnail`, `uid`, `is_deleted`) VALUES
+(594, 'Settled', '1451241', '10:00 AM', '2023-06-09', 'Kylian Mbappe Lotti', '19th arrondissement, Paris, France', 'Lionel', 'Andres', 'Messi', 'Rosario, Argentina', '12:00 PM', '2023-06-09', 'Rosario, Argentina', 'Rosario, Argentina', 'Rosario, Argentina', 'Rosario, Argentina', 'Rosario, Argentina', 'Rosario, Argentina', 'Day Shift', 'Ronaldo', NULL, NULL, NULL, 1),
+(595, 'On-going', '313414', '12:00 PM', '2023-06-13', 'Sample Complainant', 'Sample Complainant Address', 'Sample Respondent First', 'Sample Respondent Middle', 'Sample Respondent Last', 'Sample Respondent Address', '11:00 AM', '2023-06-13', 'Sample Place', 'Sample Origin', 'Sample Article', 'Sample Facts', 'Sample Disposition', 'Sample Case', 'Day Shift', 'Sample Creator', NULL, NULL, NULL, 0),
+(596, 'On-going', '131231313', '11:00 AM', '2023-06-13', 'Samp Complainant', 'Sample Complainant Address', 'Sample Respondent First', 'Sample Respondent Middle', 'Sample Respondent Last', 'Sample Respondent Address', '11:00 AM', '2023-06-12', 'Sample Place', 'Sample Origin', 'Sample Articles', 'Sample Facts', 'Sample Disposition', 'Sample Case', 'Night Shift', 'Sample Creator', NULL, NULL, NULL, 0),
+(597, 'On-going', '23', '3:24 AM', '2023-08-15', 'sadas', 'dsad', 'sadas', 'dasdasdas', 'asdsa', 'asdasd', '12:32 PM', '2023-08-22', 'asd', 'asd', 'sads', 'asdas', 'asd', 'sadasd', 'Night Shift', 'asdas', '284b3d949b2ae020744b5d4b0a344c0f.png', '3cc8d962eefcf64ec08a9acaa3e9198b.png', NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -474,6 +481,7 @@ CREATE TABLE `tbl_borrowed` (
   `br_id` int(11) NOT NULL,
   `in_id` int(11) DEFAULT NULL,
   `r_id` int(11) DEFAULT NULL,
+  `br_name` varchar(170) DEFAULT NULL,
   `br_item` varchar(100) DEFAULT NULL,
   `br_itemdesc` varchar(170) CHARACTER SET latin1 DEFAULT NULL,
   `br_item_qty` int(11) DEFAULT NULL,
@@ -501,8 +509,11 @@ CREATE TABLE `tbl_borrowed` (
 -- Dumping data for table `tbl_borrowed`
 --
 
-INSERT INTO `tbl_borrowed` (`br_id`, `in_id`, `r_id`, `br_item`, `br_itemdesc`, `br_item_qty`, `br_borrow_qty`, `br_condition`, `br_purpose`, `br_location`, `br_dateborrowed`, `br_timeborrowed`, `br_releasedby`, `br_dateexpected`, `br_remarksb`, `br_returnby`, `br_datereturned`, `br_timereturned`, `br_receivedby`, `br_remarksr`, `is_returned`, `is_barangay`, `is_deleted`, `uid`) VALUES
-(30, 12, 643, 'Sample Item', 'Sample desc', 2, 1, 'Good Condition', 'Seminar', 'Sample Event Location', '2023-06-13', '10:00 AM', 'Sample Releaser', '2023-06-15', 'Sample Remarks', NULL, NULL, NULL, NULL, NULL, 0, 0, 0, NULL);
+INSERT INTO `tbl_borrowed` (`br_id`, `in_id`, `r_id`, `br_name`, `br_item`, `br_itemdesc`, `br_item_qty`, `br_borrow_qty`, `br_condition`, `br_purpose`, `br_location`, `br_dateborrowed`, `br_timeborrowed`, `br_releasedby`, `br_dateexpected`, `br_remarksb`, `br_returnby`, `br_datereturned`, `br_timereturned`, `br_receivedby`, `br_remarksr`, `is_returned`, `is_barangay`, `is_deleted`, `uid`) VALUES
+(30, 12, 643, NULL, 'Sample Item', 'Sample desc', 2, 1, 'Good Condition', 'Seminar', 'Sample Event Location', '2023-06-13', '10:00 AM', 'Sample Releaser', '2023-06-15', 'Sample Remarks', NULL, NULL, NULL, NULL, NULL, 0, 0, 1, NULL),
+(31, 12, 0, 'asdsad', 'Sample Item', 'Sample desc', 4, 1, 'Good Condition', 'Seminara', 'sadas', '2023-08-15', '11:02 PM', 'asds', '2023-08-15', 'sads', 'xazdaz', '2023-08-23', '09:12:00', 'asda', 'sadas', 1, 0, 0, NULL),
+(32, 12, 0, NULL, 'Sample Item', 'Sample desc', 2, 1, 'With Damage', 'Seminar', 'asd', '2023-08-14', '11:03 PM', 'sad', '2023-08-16', 'sad', NULL, NULL, NULL, NULL, NULL, 0, 0, 1, NULL),
+(33, 12, 0, NULL, 'Sample Item', 'Sample desc', 1, 1, 'With Damage', 'Seminar', 'as', '2023-08-14', '11:21 PM', 'asd', '2023-08-15', 'asdas', NULL, NULL, NULL, NULL, NULL, 0, 0, 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -514,6 +525,8 @@ CREATE TABLE `tbl_business` (
   `b_id` int(11) NOT NULL,
   `uid` varchar(70) DEFAULT NULL,
   `application_type` varchar(70) DEFAULT NULL,
+  `expiration_date` varchar(70) DEFAULT NULL,
+  `date_created` varchar(70) DEFAULT NULL,
   `bookno` varchar(70) DEFAULT NULL,
   `businessname` varchar(170) DEFAULT NULL,
   `bclass` varchar(170) DEFAULT NULL,
@@ -523,6 +536,8 @@ CREATE TABLE `tbl_business` (
   `bfemale` int(11) DEFAULT NULL,
   `total_employee` int(11) DEFAULT NULL,
   `oname` varchar(50) DEFAULT NULL,
+  `ownage` varchar(50) DEFAULT NULL,
+  `pronoun` varchar(50) DEFAULT NULL,
   `oadd` varchar(170) DEFAULT NULL,
   `ocontact` varchar(50) DEFAULT NULL,
   `oeadd` varchar(70) DEFAULT NULL,
@@ -533,8 +548,10 @@ CREATE TABLE `tbl_business` (
 -- Dumping data for table `tbl_business`
 --
 
-INSERT INTO `tbl_business` (`b_id`, `uid`, `application_type`, `bookno`, `businessname`, `bclass`, `btype`, `badd`, `bmale`, `bfemale`, `total_employee`, `oname`, `oadd`, `ocontact`, `oeadd`, `is_deleted`) VALUES
-(55, 'b53b3a3d6ab90ce0268229151c9bde11', 'New', '0001', 'Sample Business', 'Sole Proprietorship', 'Sample business type', 'Sample address', 100, 100, 200, 'Sample owner', 'Sample 1, Sample 2, Sample 3', '09345678901', 'Sample@example.com.ph', 0);
+INSERT INTO `tbl_business` (`b_id`, `uid`, `application_type`, `expiration_date`, `date_created`, `bookno`, `businessname`, `bclass`, `btype`, `badd`, `bmale`, `bfemale`, `total_employee`, `oname`, `ownage`, `pronoun`, `oadd`, `ocontact`, `oeadd`, `is_deleted`) VALUES
+(55, 'b53b3a3d6ab90ce0268229151c9bde11', 'New', NULL, NULL, '0001', 'Sample Business', 'Sole Proprietorship', 'Sample business type', 'Sample address', 100, 100, 200, 'Sample owner', NULL, NULL, 'Sample 1, Sample 2, Sample 3', '09345678901', 'Sample@example.com.ph', 1),
+(56, '9f61408e3afb633e50cdf1b20de6f466', 'New', NULL, NULL, '0002', 'asa', 'Sole Proprietorship', 'asa', 'as', 0, 0, 0, 'sas', NULL, NULL, '', '', '', 1),
+(57, '72b32a1f754ba1c09b3695e0cb6cde7f', 'Renewal', '2024-08-15', '2023-08-14', '0003', 'asdsad', 'Sole Proprietorship', 'asdas', 'saasd', 2, 3, 5, 'asd', '213', 'saa', 'dsasd', '34', 'asdas', 0);
 
 -- --------------------------------------------------------
 
@@ -558,23 +575,24 @@ CREATE TABLE `tbl_certificate` (
 --
 
 INSERT INTO `tbl_certificate` (`cer_id`, `uid`, `cer_name`, `table_id`, `is_show`, `page`, `page_noid`, `is_deleted`) VALUES
-(1002, NULL, 'Certificate of Residency', 't2', 1, 'residency', NULL, 0),
-(1012, NULL, 'Business Clearance', 't6', 1, 'business', NULL, 0),
-(1018, NULL, 'Good Moral', 't16', 1, 'good_moral', NULL, 0),
-(1019, NULL, 'Miscellaneous', 't3', 1, 'miscellaneous', NULL, 0),
-(1020, NULL, 'Signage Billboard', 't12', 1, 'billboard', NULL, 0),
-(1021, NULL, 'Working Clearance', 't10', 1, 'working', NULL, 0),
-(1022, NULL, 'Meter Application', 't11', 1, 'meter', NULL, 0),
-(1023, NULL, 'BIR Real Estate', 't13', 1, 'bir', NULL, 0),
-(1024, NULL, 'Business Closure', 't14', 1, 'closure', NULL, 1),
-(1025, NULL, 'Excavation Permit', 't15', 1, 'excavation', NULL, 0),
-(1026, NULL, 'TRD', 't8', 1, 'trd', NULL, 0),
-(1027, NULL, 'TFB Private', 't9', 1, 'tfb_p', NULL, 0),
-(1031, NULL, 'Promotional Clearance', 't5', 1, 'promotional', NULL, 0),
-(1032, NULL, 'Terminal Clearance', 't4', 1, 'terminal', NULL, 0),
-(1033, NULL, 'Building Permit', 't7', 1, 'building', NULL, 0),
-(1034, NULL, 'Liquor Permit', 't1', 1, 'liquor', NULL, 0),
-(1035, NULL, 'ID', 't17', 1, 'id_front', NULL, 0);
+(1002, NULL, 'Certificate of Residency', 't1', 1, 'residency', NULL, 0),
+(1003, NULL, 'Certificate of Indigency', 't2', 1, 'indigency', NULL, 0),
+(1012, NULL, 'Business Clearance', 't3', 1, 'business', NULL, 0),
+(1018, NULL, 'Good Moral', 't4', 1, 'good_moral', NULL, 0),
+(1019, NULL, 'Miscellaneous', 't5', 1, 'miscellaneous', NULL, 0),
+(1020, NULL, 'Signage Billboard', 't6', 1, 'billboard', NULL, 0),
+(1021, NULL, 'Working Clearance', 't7', 1, 'working', NULL, 0),
+(1022, NULL, 'Meter Application', 't8', 1, 'meter', NULL, 0),
+(1023, NULL, 'BIR Real Estate', 't9', 1, 'bir', NULL, 0),
+(1024, NULL, 'Business Closure', 't10', 1, 'closure', NULL, 1),
+(1025, NULL, 'Excavation Permit', 't11', 1, 'excavation', NULL, 0),
+(1026, NULL, 'TRD', 't12', 1, 'trd', NULL, 0),
+(1027, NULL, 'TFB Private', 't13', 1, 'tfb_p', NULL, 0),
+(1031, NULL, 'Promotional Clearance', 't14', 1, 'promotional', NULL, 0),
+(1032, NULL, 'Terminal Clearance', 't15', 1, 'terminal', NULL, 0),
+(1033, NULL, 'Building Permit', 't16', 1, 'building', NULL, 0),
+(1034, NULL, 'Liquor Permit', 't17', 1, 'liquor', NULL, 0),
+(1035, NULL, 'ID', 't18', 1, 'id_front', NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -743,18 +761,19 @@ INSERT INTO `tbl_document_request` (`dr_id`, `uid`, `cer_id`, `b_id`, `ob_id`, `
 (52, '9a1158154dfa42caddbd0694a4e9bdc8', 1026, 0, 0, 643, NULL, NULL, '0003', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '00333', NULL, '20.000000', '2023-06-09', 'Marland Salgado', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Spakol', 'quezonc ity', 'suzuki', '1212323', '425', 'gray', '666', '32323', NULL, 'MARIA CECILIA M. RAMOS', NULL, NULL, 1002, 0),
 (53, 'd82c8d1619ad8176d665453cfb2e55f0', 1033, 0, 0, 643, NULL, NULL, '0004', NULL, NULL, NULL, NULL, NULL, 'MQS Building', 'Pasay city', NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0545', NULL, '20.000000', '2023-06-09', 'Marlan Salgao', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'MARIA CECILIA M. RAMOS', NULL, NULL, 1002, 0),
 (54, 'a684eceee76fc522773286a895bc8436', 1027, 0, 0, 643, NULL, NULL, '0005', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '13', NULL, '20.000000', '2023-06-09', 'Marland Salgado', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Toyota', '1545645', '12313', 'black', '4654', '12313', NULL, 'MARIA CECILIA M. RAMOS', NULL, NULL, 1002, 0),
-(55, 'b53b3a3d6ab90ce0268229151c9bde11', 1035, 0, 0, 643, NULL, '56456415', NULL, NULL, NULL, NULL, 'Messi', '5465414564', NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-06-13', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1002, 0),
+(67, '735b90b4568125ed6c3f678819b6e058', 1035, 0, 0, 643, NULL, NULL, '0012', NULL, NULL, NULL, ' Antonela Roccuzzo', '156125125', NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-07-06', 'Sample Issuer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1046, 0),
 (56, '9f61408e3afb633e50cdf1b20de6f466', 1012, 55, 0, 0, '0001', NULL, '0001', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1232131', NULL, '2000.000000', '2023-06-13', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'VINCENT JOAQUIN M. ESTACIO', NULL, NULL, 1002, 0),
 (57, '72b32a1f754ba1c09b3695e0cb6cde7f', 1024, 0, 0, 0, NULL, NULL, '0002', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2002-06-23', NULL, '0000-00-00', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL, '1232.000000', '2001-06-23', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1002, 0),
 (58, '66f041e16a60928b05a7e228a89c3799', 1018, 0, 0, 644, NULL, NULL, '0003', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '12312312', NULL, '2000.000000', '2023-06-13', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'VINCENT JOAQUIN M. ESTACIO', NULL, NULL, 1002, 0),
 (59, '093f65e080a295f8076b1c5722a46aa2', 1020, 55, 0, 0, NULL, NULL, '0004', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Single Faced', NULL, 'SIGNAGE', 'Owner', '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '213231', NULL, '2000.000000', '2023-06-23', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'DANILO C. MANIQUIS', NULL, NULL, 1002, 0),
 (60, '072b030ba126b2f4b2374f342be9ed44', 1021, 0, 0, 643, NULL, NULL, '0005', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', 'Working Clearance', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '8886765', '5454545', NULL, '2000.000000', '2023-06-23', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'DANILO C. MANIQUIS', NULL, NULL, 1002, 0),
 (61, '7f39f8317fbdb1988ef4c628eba02591', 1022, 0, 0, 644, NULL, NULL, '0006', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, 'Meralco', 'New Meter', 'Private', NULL, NULL, NULL, '878656556', NULL, '1000.000000', '2023-06-23', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'VINCENT JOAQUIN M. ESTACIO', NULL, NULL, 1002, 0),
-(62, '44f683a84163b3523afe57c2e008bc8c', 1023, 0, 0, 644, NULL, NULL, '0007', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', 'Sample Name', '2023-06-22', 'Sample purpose', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '921321', NULL, '2000.000000', '2023-06-23', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Single', 'none', NULL, NULL, 1002, 0),
+(62, '44f683a84163b3523afe57c2e008bc8c', 1023, 0, 0, 644, NULL, NULL, '0007', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', 'Sample Name', '2023-06-22', 'Sample purpose', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '921321', NULL, '2000.000000', '2023-06-23', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Brother', 'none', NULL, NULL, 1002, 0),
 (63, '03afdbd66e7929b125f8597834fa83a4', 1025, 0, 0, 0, NULL, NULL, '0008', 'Sample Name', 'Sample 1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', 'Sample purpose', NULL, NULL, 'Sample prov', NULL, NULL, '1232321', NULL, NULL, '1231312', NULL, '2000.000000', '2023-06-20', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ABEL S. MANALANSAN', NULL, NULL, 1002, 0),
 (64, 'ea5d2f1c4608232e07d3aa3d998e5135', 1031, 0, 0, 644, NULL, NULL, '0009', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '231231312', NULL, '6000.000000', '2023-06-23', 'Sample ', NULL, 'Sample Event', 'Mandaluyong', '2023-06-20', '2023-06-23', '8:00 AM', '5:00 PM', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ABEL S. MANALANSAN', NULL, NULL, 1002, 0),
 (65, 'fc490ca45c00b1249bbe3554a4fdf6fb', 1032, 0, 0, 644, NULL, NULL, '0010', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', 'Sample purp', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '09992323', NULL, '20000.000000', '2023-06-23', 'Sample Name Issued', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Sample Assoc', 'Sample 1 Sample 2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'DANILO C. MANIQUIS', NULL, NULL, 1002, 0),
-(66, '3295c76acbf4caaed33c36b1b5fc2cb1', 1034, 55, 0, 0, NULL, NULL, '0011', 'Sample Name', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Sample Business', NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0023', NULL, '2321312', '7565454', '2000.000000', '2023-06-23', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ENRIQUE P. AÑONUEVO', NULL, NULL, 1002, 0);
+(66, '3295c76acbf4caaed33c36b1b5fc2cb1', 1034, 55, 0, 0, NULL, NULL, '0011', 'Sample Name', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Sample Business', NULL, NULL, '0000-00-00', NULL, '0000-00-00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0023', NULL, '2321312', '7565454', '2000.000000', '2023-06-23', 'Sample ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ENRIQUE P. AÑONUEVO', NULL, NULL, 1002, 0),
+(68, 'a3f390d88e4c41f2747bfa2f1b5f87db', 1003, 0, 0, 643, NULL, NULL, '0013', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0000-00-00', NULL, '0000-00-00', 'Financial Assistance', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '41242', NULL, '100.000000', '2023-07-06', 'Sample Issuer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'VINCENT JOAQUIN M. ESTACIO', NULL, NULL, 1046, 0);
 
 -- --------------------------------------------------------
 
@@ -854,7 +873,7 @@ CREATE TABLE `tbl_inventory` (
 --
 
 INSERT INTO `tbl_inventory` (`in_id`, `in_item`, `in_itemdesc`, `in_serialno`, `in_amt`, `in_dop`, `in_condition`, `in_qty`, `in_available_qty`, `is_deleted`, `uid`) VALUES
-(12, 'Sample Item', 'Sample desc', '092323299', 2000, '2023-06-23', 'Running in Good Condition', '2', '1', 0, 'c20ad4d76fe97759aa27a0c99bff6710');
+(12, 'Sample Item', 'Sample desc', '092323299', 2000, '2023-06-23', 'Running in Good Condition', '5', '1', 0, 'c20ad4d76fe97759aa27a0c99bff6710');
 
 -- --------------------------------------------------------
 
@@ -923,7 +942,8 @@ CREATE TABLE `tbl_lupon` (
 --
 
 INSERT INTO `tbl_lupon` (`lpn_id`, `lpn_usp_brgy_blg`, `lpn_ukol_sa`, `lpn_date`, `lpn_complaints1_firstname`, `lpn_complaints1_middlename`, `lpn_complaints1_lastname`, `lpn_complaints2_firstname`, `lpn_complaints2_middlename`, `lpn_complaints2_lastname`, `lpn_complaints3_firstname`, `lpn_complaints3_middlename`, `lpn_complaints3_lastname`, `lpn_respondent1_firstname`, `lpn_respondent1_middlename`, `lpn_respondent1_lastname`, `lpn_respondent2_firstname`, `lpn_respondent2_middlename`, `lpn_respondent2_lastname`, `lpn_respondent3_firstname`, `lpn_respondent3_middlename`, `lpn_respondent3_lastname`, `lpn_contactno`, `lpn_contactno1`, `lpn_tirahan_sumbong`, `lpn_tirahan_sumbong1`, `kasunduan1`, `kasunduan2`, `kasunduan3`, `kasunduan4`, `kasunduan5`, `lpn_narrative`, `is_deleted`, `uid`) VALUES
-(19, '001A', 'Pagtutuos', '2023-06-09', 'Marland', 'Quiñones', 'Salgado', 'LUIS', '', 'DELGADO', 'ROMNICK ', 'SARMIENTO', 'SALLY', 'PAUL', 'GEORGE', 'TRAVOLTA', 'PEDRO', '', 'SALBAHE', 'Lionel', 'Andres', 'Messi', '09175481128', '09174581129', 'MANDALUYONG CITY', 'QUEZON CITY', 'MAG AAYOS', 'MAG AAYOS 2', 'MAG AAYOS 3', 'MAG AAYOS 4', 'MAG AAYOS5', 'NAGKASUNDO NA SILA', 0, '1f0e3dad99908345f7439f8ffabdffc4');
+(19, '001A', 'Pagtutuos', '2023-06-09', 'Marland', 'Quiñones', 'Salgado', 'LUIS', '', 'DELGADO', 'ROMNICK ', 'SARMIENTO', 'SALLY', 'PAUL', 'GEORGE', 'TRAVOLTA', 'PEDRO', '', 'SALBAHE', 'Lionel', 'Andres', 'Messi', '09175481128', '09174581129', 'MANDALUYONG CITY', 'QUEZON CITY', 'MAG AAYOS', 'MAG AAYOS 2', 'MAG AAYOS 3', 'MAG AAYOS 4', 'MAG AAYOS5', 'NAGKASUNDO NA SILA', 0, '1f0e3dad99908345f7439f8ffabdffc4'),
+(20, '', '', '0000-00-00', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 1, '98f13708210194c475687be6106a3b84');
 
 -- --------------------------------------------------------
 
@@ -969,6 +989,14 @@ CREATE TABLE `tbl_lupon_summons` (
   `is_deleted` tinyint(4) NOT NULL DEFAULT 0
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 ROW_FORMAT=COMPRESSED;
 
+--
+-- Dumping data for table `tbl_lupon_summons`
+--
+
+INSERT INTO `tbl_lupon_summons` (`sm_id`, `lpn_id`, `ukol_summon`, `bldg_summon`, `date_summon`, `time_summon`, `complainant1_firstname`, `complainant1_middlename`, `complainant1_lastname`, `complainant2_firstname`, `complainant2_middlename`, `complainant2_lastname`, `complainant3_firstname`, `complainant3_middlename`, `complainant3_lastname`, `respondent1_firstname`, `respondent1_middlename`, `respondent1_lastname`, `respondent2_firstname`, `respondent2_middlename`, `respondent2_lastname`, `respondent3_firstname`, `respondent3_middlename`, `respondent3_lastname`, `tirahan_sumbong`, `tirahan_sumbong1`, `contactno`, `contactno1`, `kasunduan1`, `kasunduan2`, `kasunduan3`, `kasunduan4`, `kasunduan5`, `narrative`, `is_deleted`) VALUES
+(12, 19, 'Pagtutuos', '001A', '1970-01-01', '8:00 AM', 'Marland', 'Quiñones', 'Salgado', 'LUIS', '', 'DELGADO', 'ROMNICK ', 'SARMIENTO', 'SALLY', 'PAUL', 'GEORGE', 'TRAVOLTA', 'PEDRO', '', 'SALBAHE', 'Lionel', 'Andres', 'Messi', '09175481128', '09174581129', 'MANDALUYONG CITY ', 'QUEZON CITY', 'MAG AAYOS', 'MAG AAYOS 2', 'MAG AAYOS 3', 'MAG AAYOS 4', 'MAG AAYOS5', 'NAGKASUNDO NA SILA', 1),
+(13, 19, 'Pagtutuos', '001A', '1970-01-01', '1:00 AM', 'Marland', 'Quiñones', 'Salgado', 'LUIS', '', 'DELGADO', 'ROMNICK ', 'SARMIENTO', 'SALLY', 'PAUL', 'GEORGE', 'TRAVOLTA', 'PEDRO', '', 'SALBAHE', 'Lionel', 'Andres', 'Messi', '09175481128', '09174581129', 'MANDALUYONG CITY ', 'QUEZON CITY', 'MAG AAYOS', 'MAG AAYOS 2', 'MAG AAYOS 3', 'MAG AAYOS 4', 'MAG AAYOS5', 'NAGKASUNDO NA SILA', 0);
+
 -- --------------------------------------------------------
 
 --
@@ -991,6 +1019,7 @@ CREATE TABLE `tbl_medical_record` (
 --
 
 INSERT INTO `tbl_medical_record` (`md_id`, `res_id`, `med_req`, `med_qty`, `med_datereq`, `remarks`, `is_deleted`, `uid`) VALUES
+(10, 647, 'Bioflu', 5, '2023-07-31', 'sample remarks', 0, 'd3d9446802a44259755d38e6d163e820'),
 (8, 643, 'Bioflu', 79, '2023-06-13', 'Sample', 0, 'c9f0f895fb98ab9159f51fd0297e236d'),
 (9, 644, 'solvent', 10, '2023-06-13', 'for health purposes', 0, '45c48cce2e2d7fbdea1afc51c7c6ad26');
 
@@ -1025,6 +1054,13 @@ CREATE TABLE `tbl_med_history` (
   `is_deleted` int(11) DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `tbl_med_history`
+--
+
+INSERT INTO `tbl_med_history` (`med_id`, `pi_id`, `history_date_examination`, `history_allergies_food_medication`, `history_past_illness`, `history_present_medication`, `history_chief`, `history_history`, `history_symp_diag`, `history_treat`, `history_physical`, `history_image`, `history_physician`, `history_license`, `history_bp`, `history_hr`, `history_rr`, `history_t`, `history_spo2`, `history_rbs`, `user_id`, `is_deleted`) VALUES
+(9, 16, '2023-06-23', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 1002, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -1038,6 +1074,8 @@ CREATE TABLE `tbl_med_inventory` (
   `consumed` int(11) DEFAULT 0,
   `on_hand` int(11) DEFAULT 0,
   `remarks` varchar(50) DEFAULT NULL,
+  `date_created` varchar(170) DEFAULT '0000-00-00',
+  `exp_date` varchar(170) DEFAULT '0000-00-00',
   `is_deleted` tinyint(4) DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -1045,10 +1083,8 @@ CREATE TABLE `tbl_med_inventory` (
 -- Dumping data for table `tbl_med_inventory`
 --
 
-INSERT INTO `tbl_med_inventory` (`medi_id`, `medicine`, `quantity`, `consumed`, `on_hand`, `remarks`, `is_deleted`) VALUES
-(5, 'Bioflu', 30, 30, 0, NULL, 1),
-(6, 'Bioflu', 80, 79, 1, 'exp. date 06/23/2023', 0),
-(7, 'solvent', 60, 10, 50, 'expiration date: june 13, 2023', 0);
+INSERT INTO `tbl_med_inventory` (`medi_id`, `medicine`, `quantity`, `consumed`, `on_hand`, `remarks`, `date_created`, `exp_date`, `is_deleted`) VALUES
+(8, 'bioflu', 10, 0, 10, 'as', '2023-08-14', '2023-08-15', 0);
 
 -- --------------------------------------------------------
 
@@ -1074,7 +1110,8 @@ CREATE TABLE `tbl_minutes` (
 --
 
 INSERT INTO `tbl_minutes` (`m_id`, `date_held`, `meeting_time1`, `meeting_time2`, `meeting_agenda`, `meeting_venue`, `meeting_attendees`, `meeting_discussion`, `meeting_remarks`, `is_deleted`) VALUES
-(3, '2023-06-12', '4:00 PM', '5:00 PM', 'Sample Agenda', 'Sample Venue', 'Sample Attendees', 'Sample Discussion', 'Sample remarks', 0);
+(3, '2023-06-13', '4:00 PM', '5:00 PM', 'Sample Agenda', 'Sample Venue', 'Sample Attendees', 'Sample Discussion', 'Sample remarks', 0),
+(4, '2023-08-14', '11:03 PM', '11:23 PM', 'asdas', 'dsad', 'sad', 'asdasdas', 'sadasd', 1);
 
 -- --------------------------------------------------------
 
@@ -1167,7 +1204,9 @@ CREATE TABLE `tbl_new_vwac` (
 --
 
 INSERT INTO `tbl_new_vwac` (`vwac_id`, `uid`, `entry_number`, `incident_type`, `date_report`, `time_report`, `date_incident`, `time_incident`, `report_contact_number`, `id_presented`, `pronoun1`, `last_name`, `given_name`, `middle_name`, `name_extension`, `nickname`, `citizenship`, `gender`, `civil_status`, `birth_date`, `age`, `birth_place`, `educational_attainment`, `occupation`, `current_address`, `barangay`, `town_city`, `province`, `pronoun2`, `sus_last_name`, `sus_given_name`, `sus_middle_name`, `sus_name_extension`, `sus_nickname`, `sus_citizenship`, `sus_gender`, `sus_civil_status`, `sus_birth_date`, `sus_age`, `sus_birth_place`, `sus_educational_attainment`, `sus_occupation`, `sus_current_address`, `sus_barangay`, `sus_town_city`, `sus_province`, `sus_work_address`, `sus_barangay2`, `sus_town_city2`, `sus_province2`, `prev_criminal_rec`, `status_prev_case`, `influence_of`, `parent_guardian_name`, `child_address`, `parent_guardian_address1`, `parent_guardian_address2`, `sus_additional_info`, `pronoun3`, `vic_last_name`, `vic_given_name`, `vic_middle_name`, `vic_name_extension`, `vic_nickname`, `vic_citizenship`, `vic_gender`, `vic_civil_status`, `vic_birth_date`, `vic_age`, `vic_birth_place`, `vic_educational_attainment`, `vic_occupation`, `vic_current_address`, `vic_barangay`, `vic_town_city`, `vic_province`, `is_deleted`) VALUES
-(9, '45c48cce2e2d7fbdea1afc51c7c6ad26', '0001', 'Sample Incident', '2023-06-20', '3:50 PM', '2023-06-20', '3:00 PM', '0987676676', '32132321', 'Mr', 'Sample Last', 'Sample First', 'Sample Middle', 'II', 'Sample Nick', 'Filipino', 'Male', 'Single', '2000-01-26', '23', 'Sample Birth', 'High School Level', 'Unemployed', 'Sample 1 Sample 2', 'Sample Barangay', 'Sample Town', 'Sample prov', 'Mrs', 'Sample Last', 'Sample First', 'Sample Middle', 'IV', 'Sample Nick', 'Filipino', 'Male', 'Single', '2023-01-23', '23', 'Philippines', 'Elementary Level', 'Unemployed', 'Sample 1, Sample 2,Sample 3', 'Sample Barangay', 'Sample Town', 'Sample city', 'Sample Work add', 'Sample Barangay', 'Sample townSample ', 'Sample prov', 'Yes', 'Sample prev case', 'Sample under of ', 'Sample Guardian', 'Sample address child', 'Sample 1Sample ', 'Sample 2', 'asddasda', 'Mr', 'Sample Last', 'Sample First', 'Sample Middle', 'II', 'Sample Nick', 'Filipino', 'Male', 'Single', '2000-01-26', '23', 'Sample Birth', 'High School Level', 'Unemployed', 'Sample 1 Sample 2', 'Sample Barangay', 'Sample Town', 'Sample prov', 0);
+(11, '6512bd43d9caa6e02c990b0a82652dca', '432', 'asds', '2023-08-15', '3:43 AM', '2023-08-15', '3:24 AM', '234', 'asd', 'ms', 'dasd', 'asd', 'sad', '', 'das', 'asda', 'Male', 'Single', '2023-08-15', '34', 'sdsa', 'Elementary Level', 'Unemployed', 'sad', 'sad', 'sad', 'sad', 'mr', 'sad', 'asds', 'da', '', 'asd', 'asd', 'Male', 'Single', '2023-08-15', '34', 'sad', 'Elementary Level', 'Unemployed', 'asd', 'sad', 'sad', 'asd', 'sadasd', 'asd', 'asd', 'asd', 'No', 'asd', 'asd', 'asd', 'sad', 'sad', 'sad', 'asdasdas', 'mr', 'asd', 'asd', 'asd', '', 'asd', 'asd', 'Male', 'Single', '2023-08-24', '34', 'dsadsa', 'Elementary Level', 'Unemployed', 'asd', 'asd', 'asd', 'asd', 0),
+(9, '45c48cce2e2d7fbdea1afc51c7c6ad26', '0001', 'Sample Incident', '2023-06-20', '3:50 PM', '2023-06-20', '3:00 PM', '0987676676', '32132321', 'Mr', 'Sample Last', 'Sample First', 'Sample Middle', 'II', 'Sample Nick', 'Filipino', 'Male', 'Single', '2000-01-26', '23', 'Sample Birth', 'High School Level', 'Unemployed', 'Sample 1 Sample 2', 'Sample Barangay', 'Sample Town', 'Sample prov', 'Mrs', 'Sample Last', 'Sample First', 'Sample Middle', 'IV', 'Sample Nick', 'Filipino', 'Male', 'Single', '2023-01-23', '23', 'Philippines', 'Elementary Level', 'Unemployed', 'Sample 1, Sample 2,Sample 3', 'Sample Barangay', 'Sample Town', 'Sample city', 'Sample Work add', 'Sample Barangay', 'Sample townSample ', 'Sample prov', 'Yes', 'Sample prev case', 'Sample under of ', 'Sample Guardian', 'Sample address child', 'Sample 1Sample ', 'Sample 2', 'asddasda', 'Mr', 'Sample Last', 'Sample First', 'Sample Middle', 'II', 'Sample Nick', 'Filipino', 'Male', 'Single', '2000-01-26', '23', 'Sample Birth', 'High School Level', 'Unemployed', 'Sample 1 Sample 2', 'Sample Barangay', 'Sample Town', 'Sample prov', 0),
+(10, 'd3d9446802a44259755d38e6d163e820', '123', 'sa', '2023-08-15', '11:02 PM', '2023-08-15', '11:02 PM', '2334', '23', 'mr', 'dsa', 'sad', 'asd', 'jr', 'sad', 'sad', 'Male', 'Single', '2023-08-16', '12', 'sadsa', 'High School Level', 'Unemployed', 'sadas', 'sdsa', 'asdsa', 'sad', 'mr', 'sad', 'asd', 'sad', '', 'asd', 'ds', 'Male', 'Single', '2023-08-15', '34', 'sdas', 'Elementary Level', 'Employed', 'asdas', 'sadsa', 'sad', 'asd', 'dsa', 'sda', 'sad', 'dsa', 'Yes', 'dsad', 'sadsa', 'dsadas', 'asdsad', 'sdas', 'sadas', 'asdasdasdasdsa', 'mr', 'dsa', 'sad', 'asd', 'jr', 'sad', 'sad', 'Male', 'Single', '2023-08-16', '12', 'sadsa', 'High School Level', 'Unemployed', 'sadas', 'sdsa', 'asdsa', 'sad', 0);
 
 -- --------------------------------------------------------
 
@@ -1192,7 +1231,8 @@ CREATE TABLE `tbl_ordinance` (
 --
 
 INSERT INTO `tbl_ordinance` (`ord_id`, `ord_itemno`, `ord_no`, `ord_title`, `ord_date`, `ord_committee`, `ord_remarks`, `image`, `is_deleted`) VALUES
-(2, 455633, 'sample NOs.s', 'sample titless', '2023-03-24', 'sample otherssss', 'sample remakrssss', '5a57bf179506952b167237eaf76cff01.jpg', '0');
+(2, 455633, 'sample NOs.s', 'sample titless', '2023-03-24', 'sample otherssss', 'sample remakrssss', '5a57bf179506952b167237eaf76cff01.jpg', '0'),
+(3, 1, '00002', 'Barangay Ordinance number', '2023-07-19', 'Police', 'Ordinance', 'ebcdb093ed262bb3dee5f8ef03411997.jpg', '0');
 
 -- --------------------------------------------------------
 
@@ -1240,7 +1280,8 @@ CREATE TABLE `tbl_patient_info` (
 --
 
 INSERT INTO `tbl_patient_info` (`pi_id`, `pi_name`, `pi_home_address`, `pi_occupation`, `pi_email_add`, `pi_placeofbirth`, `pi_dateofbirth`, `pi_age`, `pi_sex`, `pi_contact`, `pi_nationality`, `pi_civil_status`, `mh_date_examination`, `mh_allergies_food_medication`, `mh_past_illness`, `mh_present_medication`, `mh_chief`, `mh_history`, `mh_symp_diag`, `mh_treat`, `mh_physical`, `image`, `mh_physician`, `mh_license`, `vs_bp`, `vs_hr`, `vs_rr`, `vs_t`, `vs_spo2`, `vs_rbs`, `user_id`, `is_deleted`) VALUES
-(16, 'Sample Name', 'Sample 1 Sample 2', 'Sample occu', 'Sample@example.com.ph', 'Cainta', '2000-11-23', 23, 'Male', '0999123232', 'Filipino', 'Single', '2023-06-16', 'Sample allergies', 'Sample ill', 'Sample medic', 'Sample Chief comp', 'Sample Sample Sample ', 'Sample symp', 'Sample treatment', 'Sample physical', '7871cade1649aef59144b2d6aa1267a4.jpg', 'Sample physician', 'Sample license', '190', '40', '40', '40', '100', '100', 1002, 0);
+(16, 'Sample Name', 'Sample 1 Sample 2', 'Sample occu', 'Sample@example.com.ph', 'Cainta', '2000-11-23', 23, 'Male', '0999123232', 'Filipino', 'Single', '2023-06-16', 'Sample allergies', 'Sample ill', 'Sample medic', 'Sample Chief comp', 'Sample Sample Sample ', 'Sample symp', 'Sample treatment', 'Sample physical', '8dea1b2a0a34c1416c12c07f7a3165f9.jpg', 'Sample physician', 'Sample license', '190', '40', '40', '40', '100', '100', 1002, 0),
+(17, 'asd', 'asd', '', '', '', '2023-08-14', 0, 'Male', '324', '', '', '0000-00-00', '', '', '', '', '', '', '', '', '58080921bf1c1f6d57677f79141d4a53.jpg', '', '', '', '', '', '', '', '', 1046, 1);
 
 -- --------------------------------------------------------
 
@@ -1308,7 +1349,11 @@ CREATE TABLE `tbl_project` (
 --
 
 INSERT INTO `tbl_project` (`p_id`, `p_title`, `p_leader`, `p_rationale`, `p_objectives`, `p_location`, `p_source`, `p_cost`, `p_date`, `is_contractor`, `p_compname`, `p_contactp`, `p_position`, `p_contactno`, `p_caddress`, `p_status`, `is_deleted`, `uid`) VALUES
-(0, 'CCTV Installation', 'Crisostomo Ibarra', 'Installing CCTV around the vicinity of Sample Barangay.', 'Install multiple CCTVs in the barangay', 'Sample Barangay', 'Barangay', '250000.00', '2023-03-16', 1, '7S CCTV Security Corporation', 'Gordon Ramsey', 'Human Resource', '(02) 8895 8879', 'Makati Ave, Brgy. Bel-Air, Makati, 1209 Metro Manila', 'Completed', 0, 'cfcd208495d565ef66e7dff9f98764da');
+(1, 'CCTV ', 'Crisostomo Ibarra', 'Installing CCTV around the vicinity of Sample Barangay.', 'Install multiple CCTVs in the barangay', 'Sample Barangay', 'Barangay', '250000.00', '2023-03-16', 1, '7S CCTV Security Corporation', 'Gordon Ramsey', 'Human Resource', '(02) 8895 8879', 'Makati Ave, Brgy. Bel-Air, Makati, 1209 Metro Manila', 'Completed', 1, 'cfcd208495d565ef66e7dff9f98764da'),
+(2, 'CCTV ', 'Crisostomo Ibarra', 'Installing CCTV around the vicinity of Sample Barangay.', 'Install multiple CCTVs in the barangay', 'Sample Barangay', 'Barangay', '250000.00', '2023-03-16', 1, '7S CCTV Security Corporation', 'Gordon Ramsey', 'Human Resource', '(02) 8895 8879', 'Makati Ave, Brgy. Bel-Air, Makati, 1209 Metro Manila', 'Completed', 1, 'cfcd208495d565ef66e7dff9f98764da'),
+(3, 'ads', 'sd', 'sad', 'dsa', 'sda', 'sddas', '123.00', '2023-07-20', 0, '', '', '', '', '', 'Ongoing', 1, 'cfcd208495d565ef66e7dff9f98764da'),
+(4, 'asd', 'sad', 'sads', 'adsa', 'd', 'asdas', '1223.00', '2023-08-15', 1, 'asd', '123', 'sad', '21312', 'asdsad', 'Ongoing', 0, 'a87ff679a2f3e71d9181a67b7542122c'),
+(5, 'sdfdsf', 'sadsf', 'safds', 'sdfsd', 'sdaf', 'sdfsdf', '34445.00', '2023-08-14', 1, '', '', '', '', '', 'Completed', 1, 'e4da3b7fbbce2345d7772b0674a318d5');
 
 -- --------------------------------------------------------
 
@@ -1413,7 +1458,7 @@ CREATE TABLE `tbl_rescue` (
 --
 
 INSERT INTO `tbl_rescue` (`res_id`, `ph_date_incident`, `ph_time_incident`, `ph_name`, `ph_address`, `ph_contact`, `ph_gender`, `ph_age`, `ph_case`, `ph_case_type`, `ph_time_report`, `ph_time_arrival`, `ph_location_incident`, `ph_reported_by`, `pa_vacs_date`, `pa_complaint`, `pa_allergy`, `pa_medication`, `pa_past_hx`, `pa_last_meal`, `pa_events_prior`, `pa_onset`, `pa_palliation`, `pa_quality`, `pa_radiation`, `pa_severity`, `pa_time`, `pa_other`, `pa_is_thor_assess`, `pa_is_rapid_assess`, `pa_is_o2_adm`, `o2_value`, `o2_via`, `pa_is_dressed_wound`, `pa_is_cpr`, `pa_is_iv_line`, `pa_is_gave_med`, `med_given`, `pa_is_blood_sugar`, `bloods_mg_dl`, `pa_is_splinting`, `pa_is_complete_spine`, `pa_option1`, `pa_option2`, `pa_on_bp`, `pa_on_pr`, `pa_on_rr`, `pa_on_temp`, `pa_on_spo2`, `pa_in_bp`, `pa_in_pr`, `pa_in_rr`, `pa_in_temp`, `pa_in_spo2`, `gcs_eyes`, `gcs_verbal`, `gcs_infant`, `gcs_motor`, `ob_lmp`, `ob_g`, `ob_p1`, `ob_aog_wks`, `ob_aog_day`, `ob_edc`, `ob_t`, `ob_p2`, `ob_a`, `ob_l`, `nb_gender`, `nb_time`, `nb_placenta`, `as_1min`, `as_5min`, `as_10min`, `receiving_facility`, `receiver`, `team_leader`, `driver`, `rescuers`, `accomplished_by`, `encoded_by`, `rot_person_sign`, `rot_witness`, `aos_name`, `ect_hospital_name`, `ect_doctor_name`, `ect_doctor_address`, `ect_requestor_name`, `is_deleted`) VALUES
-(1, '2023-01-17', '11:59 PM', 'Sample Patient Name{[:;<,>.?/', 'Sample Patient Address{[:;<,>.?/', '213-1234-098', 'Male', '21', 'Sample Incident Case{[:;<,>.?/', 'CONDUCTION', '10:15 AM', '10:40 AM', 'Sample Location of incident{[:;<,>.?/', 'Traffic/Mapsa', '2023-01-03', 'Sample Complaint{[:;<,>.?/', 'Sample allergy{[:;<,>.?/', 'Sample medication{[:;<,>.?/', 'Sample past hx{[:;<,>.?/', 'Sample last meal{[:;<,>.?/', 'Sample events prior{[:;<,>.?/', 'Sample onset{[:;<,>.?/', 'Sample palliation{[:;<,>.?/', 'Sample quality{[:;<,>.?/', 'Sample radiation{[:;<,>', 'Sample severity{[:;<,>.?/', '8:55 AM', 'Sample mngt/assessment{[:;<,>.?/', 'Yes', 'Yes', 'Yes', '0.2', 'Sample via{[:;<,>.?/', 'Yes', 'Yes', 'Yes', 'Yes', 'Sample med given{[:;<,>.?/', 'Yes', 'Sample mg{[:;<,>.?/', 'Yes', 'Yes', 'Yes', 'No', '120/80', '120/80', '120/80', '36.6', '120/80', '120/80', '120/80', '120/80', '35.3', '120/80', 'OPEN EYES TO VOICE', 'UTTER INAPPROPRIATE WORDS', 'MOANS', 'NO MOVEMENT', '120/80', '120/80', '120/80', '3', '4.5', '120/80', '120/80', '120/80', '120/80', '120/80', 'Male', '5:15 AM', 'Sample Placenta{[:;<,>.?/', 'Sample 1min{[:;<,>.?/', 'Sample 5min{[:;<,>.?/', 'Sample 10min{[:;<,>.?/', 'Sample receiving facility{[:;<,>.?/', 'Nurse', 'Sample Team Leader{[:;<,>.?/', 'Sample Driver{[:;<,>.?/', 'Sample Rescuers{[:;<,>.?/', 'Sample Accomplished by{[:;<,>.?/', 'Sample encoded by{[:;<,>.?/', NULL, 'Sample witnessed{[:;<,>.?/', 'Sample patient/relative{[:;<,>.?/', 'Sample hospital name{[:;<,>.?/', 'Sample doctor name{[:;<,>.?/', 'Sample doctor address{[:;<,>.?/', 'Sample Requestor name{[:;<,>.?/', 0);
+(1, '2023-01-17', '11:59 PM', 'Sample Patient Name', 'Sample Patient Address', '213-1234-098', 'Male', '21', 'Sample Incident Case', 'CONDUCTION', '10:15 AM', '10:40 AM', 'Sample Location of incident', 'Traffic/Mapsa', '2023-01-03', 'Sample Complaint', 'Sample allergy', 'Sample medication', 'Sample past hx', 'Sample last meal', 'Sample events prior', 'Sample onset', 'Sample palliation', 'Sample quality', 'Sample radiation', 'Sample severity', '8:55 AM', 'Sample mngt/assessment', 'Yes', 'Yes', 'Yes', '0.2', 'Sample via{[:;<,>.?/', 'Yes', 'Yes', 'Yes', 'Yes', 'Sample med given', 'Yes', 'Sample mg', 'Yes', 'Yes', 'Yes', 'No', '120/80', '120/80', '120/80', '36.6', '120/80', '120/80', '120/80', '120/80', '35.3', '120/80', 'OPEN EYES TO VOICE', 'UTTER INAPPROPRIATE WORDS', 'MOANS', 'NO MOVEMENT', '120/80', '120/80', '120/80', '3', '4.5', '120/80', '120/80', '120/80', '120/80', '120/80', 'Male', '5:15 AM', 'Sample Placenta', 'Sample 1min', 'Sample 5min', 'Sample 10min', 'Sample receiving facility', 'Nurse', 'Sample Team Leader', 'Sample Driver', 'Sample Rescuers', 'Sample Accomplished by', 'Sample encoded by', NULL, 'Sample witnessed', 'Sample patient/relative', 'Sample hospital name', 'Sample doctor name', 'Sample doctor address', 'Sample Requestor name', 0);
 
 -- --------------------------------------------------------
 
@@ -1557,6 +1602,7 @@ CREATE TABLE `tbl_resident` (
   `thumbnail` varchar(170) DEFAULT NULL,
   `date_added` varchar(50) DEFAULT '0000-00-00 00:00:00',
   `year_added` varchar(170) DEFAULT '0000-00-00',
+  `school` varchar(170) DEFAULT '0000-00-00',
   `user_id` int(10) DEFAULT 0,
   `is_deleted` tinyint(4) DEFAULT 0,
   `is_active` tinyint(4) DEFAULT 0,
@@ -1567,11 +1613,14 @@ CREATE TABLE `tbl_resident` (
 -- Dumping data for table `tbl_resident`
 --
 
-INSERT INTO `tbl_resident` (`r_id`, `resident_category`, `acc_no_tag`, `acc_no`, `firstname`, `middlename`, `lastname`, `suffix`, `alias`, `birthdate`, `age`, `height`, `weight`, `blood_type`, `birthplace`, `gender`, `lgbtq`, `civilstatus`, `citizenship`, `religion`, `contactno`, `landlineno`, `email`, `region_id`, `province_id`, `municipality_id`, `barangay_id`, `yearsofresidency`, `danger_zone`, `geographical_location`, `house_num`, `unit_name`, `street_name`, `purok`, `area_village`, `barangay`, `city_municipality`, `resident_status`, `tax_no`, `qci_no`, `philhealth_no`, `pagibig_no`, `gsis_no`, `sss_no`, `type_of_residency`, `educationalattainment`, `school_name`, `course`, `skills`, `employeestatus`, `is_kasambahay`, `occupation`, `company_name`, `company_position`, `company_address`, `employer_name`, `employer_address`, `income_source`, `income_monthly`, `is_head_of_family`, `householdno`, `relationship_fam`, `is_hoa`, `headofthefamily_id`, `votersstatus`, `precintno`, `is_soloparent`, `is_erpat`, `is_kababaihan`, `is_youth`, `is_pwd`, `is_ps4`, `is_cvon_pwud`, `is_indigenous`, `is_informal_settler`, `cso`, `is_ofw`, `ngo`, `transport_group`, `is_sc`, `maynilad`, `meralco`, `septic_tank`, `house_structure`, `pet_own`, `pet1_type`, `pet1_qty`, `is_pet1_vac1`, `pet1_vac1_date`, `is_pet1_vac2`, `pet1_vac2_date`, `is_pet1_vac3`, `pet1_vac3_date`, `is_pet1_reg1`, `pet1_reg1_date`, `is_pet1_reg2`, `pet1_reg2_date`, `is_pet1_reg3`, `pet1_reg3_date`, `pet2_type`, `pet2_qty`, `is_pet2_vac1`, `pet2_vac1_date`, `is_pet2_vac2`, `pet2_vac2_date`, `is_pet2_vac3`, `pet2_vac3_date`, `is_pet2_reg1`, `pet2_reg1_date`, `is_pet2_reg2`, `pet2_reg2_date`, `is_pet2_reg3`, `pet2_reg3_date`, `pet3_type`, `pet3_qty`, `is_pet3_vac1`, `pet3_vac1_date`, `is_pet3_vac2`, `pet3_vac2_date`, `is_pet3_vac3`, `pet3_vac3_date`, `is_pet3_reg1`, `pet3_reg1_date`, `is_pet3_reg2`, `pet3_reg2_date`, `is_pet3_reg3`, `pet3_reg3_date`, `status`, `date_death`, `cause_death`, `place_death`, `image`, `thumbnail`, `date_added`, `year_added`, `user_id`, `is_deleted`, `is_active`, `uid`) VALUES
-(643, 'Permanent', '0623-', 63351055, 'Lionel', 'Andres', 'Messi', '', '', '1987-06-24', 35, '', '', '', 'Rosario, Argentina', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '526416541', '', '', 0, 0, 0, 0, 25, NULL, NULL, 'House No. 10', 'Acacia Condos', 'Palm Street', ' Purok 4', 'Willow Village', 'Barangay San Juan', 'Quezon City', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', NULL, '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 645, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', '0000-00-00', '', NULL, '87f6cde6638ec426aa83351a898dd435.jpg', '27aa8b0ebff959bcdd8f717d31c1c34e.jpg', '2023-06-09', '2023', 1002, 0, 0, NULL),
-(644, '', '', 0, 'Kylian', 'Mbappe', 'Lottin', '', '', '1998-12-20', 24, '', '', '', '19th arrondissement, Paris, France', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '31234141', '', '', 0, 0, 0, 0, 0, 'No', '', 'Lot 5', 'Pineview Towers', 'Oak Street', 'Zone 3', 'Cedarwood Village', 'Barangay Santa Rosa', 'Davao City', 'Non-Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', NULL, '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 0, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', 'Deceased', '2023-06-15', 'Choked', 'SM Megamall', '6b9ca68e7535bb67b9f0b8354d12dca7.jpg', 'dc71e4bb5ee5c821b769628affdcc2c2.jpg', '2023-06-09', '2023', 1002, 0, 0, NULL),
-(645, 'Permanent', '0623-', 12258317, 'marland', 'quinones', 'salgado', '', '', '1987-11-28', 35, '5\'7', '50kg', 'da', 'sosrosogn', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '09175481128', '', '', 0, 0, 0, 0, 18, 'Yes', 'Landslide Area', '', '', '', '', '', '', '', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', NULL, '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '001', '', 0, 643, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', 'Alive', '2023-06-16', 'nag gokgok 1hr', 'sa bahay', '', '', '2023-06-13', '2023', 1002, 0, 0, NULL),
-(646, 'Permanent', '0623-', 32509119, 'sample first', 'sample middle', 'sample last', '', '', '2011-06-19', 12, '', '', '', 'sample place', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '123', '', '', 0, 0, 0, 0, 3, 'Yes', 'Landslide Area', '', '', '', '', '', '', '', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', '', '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 643, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', 'Deceased', '2023-06-20', 'uminom ng milktea ', 'greenfield', '', '', '2023-06-19 15:07:03', '2023', 1002, 0, 0, NULL);
+INSERT INTO `tbl_resident` (`r_id`, `resident_category`, `acc_no_tag`, `acc_no`, `firstname`, `middlename`, `lastname`, `suffix`, `alias`, `birthdate`, `age`, `height`, `weight`, `blood_type`, `birthplace`, `gender`, `lgbtq`, `civilstatus`, `citizenship`, `religion`, `contactno`, `landlineno`, `email`, `region_id`, `province_id`, `municipality_id`, `barangay_id`, `yearsofresidency`, `danger_zone`, `geographical_location`, `house_num`, `unit_name`, `street_name`, `purok`, `area_village`, `barangay`, `city_municipality`, `resident_status`, `tax_no`, `qci_no`, `philhealth_no`, `pagibig_no`, `gsis_no`, `sss_no`, `type_of_residency`, `educationalattainment`, `school_name`, `course`, `skills`, `employeestatus`, `is_kasambahay`, `occupation`, `company_name`, `company_position`, `company_address`, `employer_name`, `employer_address`, `income_source`, `income_monthly`, `is_head_of_family`, `householdno`, `relationship_fam`, `is_hoa`, `headofthefamily_id`, `votersstatus`, `precintno`, `is_soloparent`, `is_erpat`, `is_kababaihan`, `is_youth`, `is_pwd`, `is_ps4`, `is_cvon_pwud`, `is_indigenous`, `is_informal_settler`, `cso`, `is_ofw`, `ngo`, `transport_group`, `is_sc`, `maynilad`, `meralco`, `septic_tank`, `house_structure`, `pet_own`, `pet1_type`, `pet1_qty`, `is_pet1_vac1`, `pet1_vac1_date`, `is_pet1_vac2`, `pet1_vac2_date`, `is_pet1_vac3`, `pet1_vac3_date`, `is_pet1_reg1`, `pet1_reg1_date`, `is_pet1_reg2`, `pet1_reg2_date`, `is_pet1_reg3`, `pet1_reg3_date`, `pet2_type`, `pet2_qty`, `is_pet2_vac1`, `pet2_vac1_date`, `is_pet2_vac2`, `pet2_vac2_date`, `is_pet2_vac3`, `pet2_vac3_date`, `is_pet2_reg1`, `pet2_reg1_date`, `is_pet2_reg2`, `pet2_reg2_date`, `is_pet2_reg3`, `pet2_reg3_date`, `pet3_type`, `pet3_qty`, `is_pet3_vac1`, `pet3_vac1_date`, `is_pet3_vac2`, `pet3_vac2_date`, `is_pet3_vac3`, `pet3_vac3_date`, `is_pet3_reg1`, `pet3_reg1_date`, `is_pet3_reg2`, `pet3_reg2_date`, `is_pet3_reg3`, `pet3_reg3_date`, `status`, `date_death`, `cause_death`, `place_death`, `image`, `thumbnail`, `date_added`, `year_added`, `school`, `user_id`, `is_deleted`, `is_active`, `uid`) VALUES
+(651, 'Permanent', '0823-', 96835482, 'Ray', 'Vince', 'Tan', '', '', '2001-08-01', 22, '', '', '', 'sample place', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '123', '', '', 0, 0, 0, 0, 1, 'No', '', '', '', '', '', '', '', '', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', '', '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '123', '', 0, 0, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, NULL, NULL, '4ad116ec7c283dc3554414896f42a163.jpg', 'ebc1477d0b3f31ed0f7c445deae9f5bb.jpg', '2023-08-14 16:23:14', '2023', '0000-00-00', 1046, 0, 0, NULL),
+(650, 'Permanent', '0823-', 35088340, 'jacob', '', 'cinco', '', '', '2023-08-14', 0, '', '', '', 'asdas', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '1243', '', '', 0, 0, 0, 0, 1, 'No', '', '', '', '', '', '', '', '', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', '', 'sd', 'sd', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 651, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', 'Alive', '0000-00-00', '', '', '', '', '2023-08-14 13:16:47', '2023', '', 1046, 0, 0, NULL),
+(648, 'Permanent', '0723-', 66365309, 'test', '', 'testing', '', '', '2007-07-01', 16, '', '', '', 'sampel', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '1231232', '', '', 0, 0, 0, 0, 2, 'No', '', '', '', '', '', '', '', '', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', '', '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 0, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, NULL, NULL, '', '', '2023-07-25 16:22:30', '2023', '0000-00-00', 1002, 0, 0, NULL),
+(649, 'Permanent', '0723-', 39367934, 'yay', '', 'yow', '', '', '2002-07-09', 21, '', '', '', 'pasig ', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '5454', '', '', 0, 0, 0, 0, 2, 'No', '', '', '', '', '', '', '', '', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', '', '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 0, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, NULL, NULL, '', '', '2023-07-26 09:30:00', '2023', '0000-00-00', 1002, 0, 0, NULL),
+(647, 'Permanent', '0723-', 41550393, 'Jonna', '', 'Marcelino', '', '', '2000-06-02', 23, '', '', '', 'Pasig City', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '213213', '', '', 0, 0, 0, 0, 1, 'No', '', '', '', '', '', '', '', '', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', '', '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 0, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, NULL, NULL, '41c969a6cc0074eadfc57633803e2321.jpg', '6024aaedc02d753c58645bc5a27375ed.jpg', '2023-07-25 16:17:51', '2023', '0000-00-00', 1002, 0, 0, NULL),
+(652, 'Permanent', '0823-', 47553431, 'sadas', 'sa', 'das', '', '', '2023-08-14', 0, '', '', '', 'sadsa', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '21321', '', '', 0, 0, 0, 0, 2, 'No', '', '', '', '', '', '', '', '', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Elementary', '', '', '', 'Employed Private', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 0, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 0, 0, 0, 'Light Materials', '0', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, NULL, NULL, '', '', '2023-08-14 16:23:59', '2023', '0000-00-00', 1046, 0, 0, NULL),
+(653, 'Permanent', '0823-', 20936371, 'james', 'karl', 'sadia', '', '', '1997-08-01', 26, '5\'7', '60kg', '0+', 'cainta city', 'Male', 'N/A', 'Single', 'Filipino', 'Roman Catholic', '123', '2343', 'sample@gmail.com', 0, 0, 0, 0, 1, 'No', '', '12', '3', 'anonas street', '1', 'villia elena', 'san luis', 'antipolo', 'Resident', '', NULL, '', '', '', '', 'Home Owner', 'Technical/Vocational', '', '', '', 'Unemployed', 0, '', '', '', '', '', '', 'Salary', '0.00', 1, '', '', 0, 0, 'Registered', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, '', '', 0, 1, 1, 1, 'Semi - Concrete', '1', 'dog', 1, 'No', '', '', '', '', '', 'No', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, NULL, NULL, 'c87ad305c2d23ea53af8ce5c13deca42.jpg', '7c855b22f07efc0e3914803f43f3fecc.jpg', '2023-08-15 11:08:15', '2023', '0000-00-00', 1002, 0, 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -2497,7 +2546,8 @@ INSERT INTO `tbl_resolution` (`re_id`, `re_itemno`, `re_resno`, `re_title`, `re_
 (4187, 31, 'RESOLUTION NO. 29     SERIES 2024', '', '', '', '', NULL, NULL, NULL, 0, '22cf8d98dca2b9de5052ae9253bddef3'),
 (4188, 32, 'RESOLUTION NO. 30     SERIES 2025', '', '', '', '', NULL, NULL, NULL, 0, 'c76db12c821b79a91d361a4c705ce6b4'),
 (4189, 33, 'RESOLUTION NO. 31     SERIES 2026', '', '', '', '', NULL, NULL, NULL, 0, '09e7655fc1dc8fa7c9d6c4478313d5e6'),
-(4536, 345, 'sample NOs.', 'sample titles', '2023-03-23', 'sample others', 'sample remarkss', NULL, NULL, '4613383bf142366326dbc7be5840c529.jpg', 1, 'cfbc6c5cfb8a3e10fab12aa3512153df');
+(4536, 345, 'sample NOs.', 'sample titles', '2023-03-23', 'sample others', 'sample remarkss', NULL, NULL, '4613383bf142366326dbc7be5840c529.jpg', 1, 'cfbc6c5cfb8a3e10fab12aa3512153df'),
+(4537, 1, '00001', 'Barangay Resolution', '2023-07-19', 'VAWC\'s', 'Sample Remarks', NULL, NULL, 'e459fa0ef099e5ddca1f694598ac41c8.jpg', 0, '26310c700ffd1b5095454f336ae96648');
 
 -- --------------------------------------------------------
 
@@ -2637,7 +2687,7 @@ CREATE TABLE `tbl_vehicle` (
 --
 
 INSERT INTO `tbl_vehicle` (`vh_id`, `tr_id`, `driver`, `vehicle`, `plateno`, `date_reserved`, `time_reserved`, `activity`, `destination`, `date_dispatched`, `time_dispatched`, `date_returned`, `odo_beginning`, `odo_ending`, `remarks`, `is_deleted`, `uid`) VALUES
-(22, 23, 'Sample Driver Name', 'Toyota Vios', 'IOU-420', '2023-06-14', '12:00 PM', 'Sample Activity', 'Sample Destination', '2023-06-14', '1:00 AM', NULL, '2115', '2150', 'Sample Remarks', 0, 'b6d767d2f8ed5d21a44b0e5886680cb9');
+(22, 23, 'Sample Driver Name', 'Toyota Vios', 'IOU-420', '2023-06-14', '12:00 PM', 'Sample Activity', 'Sample Destination', '2023-06-14', '1:00 AM', '2023-08-14', '2115', '2150', 'asd', 0, 'b6d767d2f8ed5d21a44b0e5886680cb9');
 
 -- --------------------------------------------------------
 
@@ -2740,6 +2790,8 @@ CREATE TABLE `tbl_vwac` (
 --
 
 INSERT INTO `tbl_vwac` (`vwac_id`, `uid`, `vwac_typeofcase`, `reference_no`, `case_no`, `vwac_victim_firstname`, `vwac_victim_middlename`, `vwac_victim_lastname`, `vwac_age`, `vwac_address`, `vwac_civil_status`, `vwac_relationship_to_perpetrator`, `vwac_cmplnt_proffesion`, `vwac_perpetrator_firstname`, `vwac_perpetrator_middlename`, `vwac_perpetrator_lastname`, `vwac_perpetrator_contact`, `vwac_perpetrator_address`, `vwac_date_violence_commited`, `vwac_date_reported`, `vwac_physical`, `vwac_sexual`, `vwac_psychological`, `vwac_economic_abuse`, `vwac_medical`, `vwac_counseling`, `vwac_referral_to`, `vwac_shelter`, `vwac_issued_bpo_date`, `vwac_providedby`, `vwac_providedby1`, `vwac_providedby2`, `vwac_providedby3`, `vwac_providedby4`, `vwac_remarks`, `vwac_remarks1`, `vwac_remarks2`, `vwac_remarks3`, `vwac_remarks4`, `vwac_date_accomplished`, `is_deleted`) VALUES
+(12, 'c20ad4d76fe97759aa27a0c99bff6710', 'RA 7610', '2023-001', '', '', '', '', 0, '', '--Select your Status--', '', '', '', '', '', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', '', '', '', '0000-00-00', '', '', '', '', '', '', '', '', '', '', '0000-00-00', 1),
+(13, 'c51ce410c124a10e0db5e4b97fc2af39', 'RA 7610', '2023-002', '342', 'asd', 'sad', 'sadas', 341, 'azdsa', 'Married', 'sad', '', 'sd', 'asd', 'sad', 'sada', 'sad', '2023-08-15', '2023-08-16', 'sad', 'sad', 'asd', 'asd', 'asd', 'asdas', 'das', 'dasd', '2023-08-15', 'sad', 'sad', 'asdas', 'ads', 'das', 'asd', 'asd', 'd', 'asd', 'd', '2023-08-15', 1),
 (11, '6512bd43d9caa6e02c990b0a82652dca', 'RA 7610', '2023-000', '', 'Cristiano', '', 'Ronaldo', 37, 'Portugal', 'Married', 'Friend', 'Football Player', 'Lionel', 'Andres', 'Messi', '46546865', 'Argentina', '2023-06-08', '2023-06-09', '', '', '', '', '', '', '', '', '0000-00-00', '', '', '', '', '', '', '', '', '', '', '2023-06-09', 0);
 
 -- --------------------------------------------------------
@@ -2763,12 +2815,12 @@ CREATE TABLE `tr_graph_age` (
 --
 
 INSERT INTO `tr_graph_age` (`pop_id`, `status`, `total`, `style`, `color`, `icon`, `age`) VALUES
-(8840, 'Infant 0', 0, 'infant', 'e17055', 'baby', '0'),
-(8841, 'Children 1-6', 0, 'children', '74b9ff', 'child', '1-6'),
-(8842, 'Youth 7-17', 0, 'youth', 'd63031', 'youth', '7-17'),
-(8843, 'Adult 18-59', 2, 'adult', 'a29bfe', 'adult', '18-59'),
-(8844, 'Senior 60-up', 0, 'senior', 'e84393', 'senior', '60-up'),
-(8845, '', 0, '', '', '', '');
+(9326, 'Infant 0', 2, 'infant', 'e17055', 'baby', '0'),
+(9327, 'Children 1-6', 0, 'children', '74b9ff', 'child', '1-6'),
+(9328, 'Youth 7-17', 1, 'youth', 'd63031', 'youth', '7-17'),
+(9329, 'Adult 18-59', 4, 'adult', 'a29bfe', 'adult', '18-59'),
+(9330, 'Senior 60-up', 0, 'senior', 'e84393', 'senior', '60-up'),
+(9331, '', 0, '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -2877,8 +2929,8 @@ CREATE TABLE `tr_graph_household` (
 --
 
 INSERT INTO `tr_graph_household` (`pop_id`, `status`, `total`) VALUES
-(4565, '2023', 1),
-(4566, '', 0);
+(4727, '2023', 123),
+(4728, '', 0);
 
 -- --------------------------------------------------------
 
@@ -3443,7 +3495,47 @@ INSERT INTO `tr_log` (`id`, `action`, `description`, `category`, `reference`, `a
 (497, 'Resident Record modified', '', 'Resident Record', '645', '1002', '2023-06-16 09:17:04'),
 (498, 'Resident Record modified', '', 'Resident Record', '644', '1002', '2023-06-16 09:24:13'),
 (499, 'Resident Record added', 'sample first sample middle sample last', 'Resident Record', '0ff39bbbf981ac0151d340c9aa40e63e', '1002', '2023-06-19 15:07:03'),
-(500, 'Resident Record modified', '', 'Resident Record', '646', '1002', '2023-06-19 15:10:03');
+(500, 'Resident Record modified', '', 'Resident Record', '646', '1002', '2023-06-19 15:10:03'),
+(501, 'Medical Record Modified', 'Sample Name', 'Medical Record', '16', '1002', '2023-06-20 14:08:26'),
+(502, 'Medical Record Added', '', 'Medical Record', '16', '1002', '2023-06-22 13:31:19'),
+(503, 'User Logged Out', 'Asuncion Visaya', 'User', '1002', '1046', '2023-07-05 16:35:52'),
+(504, 'Resident Record modified', '', 'Resident Record', '643', '1046', '2023-07-06 09:48:52'),
+(505, 'Business Record deleted', 'Sample Business', 'Business Record', 'b53b3a3d6ab90ce0268229151c9bde11', '1002', '2023-07-18 09:38:51'),
+(506, 'Rescue Unit Record Modified', 'Sample Patient Name{[:;<,>.?/', 'Rescue Unit Record', '', '1002', '2023-07-19 11:40:51'),
+(507, 'Rescue Unit Record Modified', 'Sample Patient Name', 'Rescue Unit Record', '', '1002', '2023-07-19 11:41:09'),
+(508, 'Business Record added', 'asa', 'Business Record', '9f61408e3afb633e50cdf1b20de6f466', '1002', '2023-07-20 08:59:15'),
+(509, 'Resident Record added', 'Jonna  Marcelino', 'Resident Record', '303ed4c69846ab36c2904d3ba8573050', '1002', '2023-07-25 16:17:51'),
+(510, 'Resident Record added', 'test  testing', 'Resident Record', '443cb001c138b2561a0d90720d6ce111', '1002', '2023-07-25 16:22:30'),
+(511, 'Resident Record added', 'yay  yow', 'Resident Record', '55b37c5c270e5d84c793e486d798c01d', '1002', '2023-07-26 09:30:00'),
+(512, 'Resident Record deleted', 'yay  yow', 'Resident Record', '649', '1002', '2023-07-26 09:30:15'),
+(513, 'Resident Record deleted', 'test  testing', 'Resident Record', '648', '1002', '2023-07-26 09:30:29'),
+(514, 'Medicine Inventory Modified', 'exp. date 06/23/2023', 'Medicine Inventory', '6', '1002', '2023-07-31 10:31:13'),
+(515, 'Medical Record added', 'Jonna  Marcelino', 'Medical Record', 'd3d9446802a44259755d38e6d163e820', '1002', '2023-07-31 10:31:50'),
+(516, 'Business Record added', 'asdsad', 'Business Record', '72b32a1f754ba1c09b3695e0cb6cde7f', '1002', '2023-08-14 10:36:12'),
+(517, 'Business Record modified', 'asdsad', 'Business Record', '72b32a1f754ba1c09b3695e0cb6cde7f', '1002', '2023-08-14 10:36:31'),
+(518, 'Business Record deleted', 'asa', 'Business Record', '9f61408e3afb633e50cdf1b20de6f466', '1002', '2023-08-14 10:36:42'),
+(519, 'Medicine Inventory Modified', 'expiration date: june 13, 2023', 'Medicine Inventory', '7', '1002', '2023-08-14 11:26:00'),
+(520, 'Medicine Inventory Modified', 'aa', 'Medicine Inventory', '7', '1002', '2023-08-14 11:26:10'),
+(521, 'Medicine Inventory Added', 'as', 'Medicine Inventory', 'c9f0f895fb98ab9159f51fd0297e236d', '1002', '2023-08-14 11:27:01'),
+(522, 'Inventory modified', 'Sample desc', 'Inventory', 'c20ad4d76fe97759aa27a0c99bff6710', '1046', '2023-08-14 12:10:20'),
+(523, 'Resident Record added', 'jacob  cinco', 'Resident Record', '884d247c6f65a96a7da4d1105d584ddd', '1046', '2023-08-14 13:16:47'),
+(524, 'User Logged Out', 'Asuncion Visaya', 'User', '1002', '1046', '2023-08-14 13:22:34'),
+(525, 'Medical Record Added', 'asd', 'Medical Record', '', '1046', '2023-08-14 15:24:44'),
+(526, 'Medical Record deleted', 'asd', 'Medical Record', '17', '1046', '2023-08-14 15:24:57'),
+(527, 'Vehicle Returned', 'Toyota Vios', 'Vehicle Logs', '', '', '2023-08-14 15:30:15'),
+(528, 'Resident Record added', 'Ray Vince Tan', 'Resident Record', '55743cc0393b1cb4b8b37d09ae48d097', '1046', '2023-08-14 16:23:14'),
+(529, 'Resident Record added', 'sadas sa das', 'Resident Record', '30ef30b64204a3088a26bc2e6ecf7602', '1046', '2023-08-14 16:23:59'),
+(530, 'Resident Record deleted', 'sadas sa das', 'Resident Record', '652', '1046', '2023-08-14 16:24:05'),
+(531, 'Resident Record modified', '', 'Resident Record', '650', '1046', '2023-08-14 16:32:44'),
+(532, 'Resident Record modified', '', 'Resident Record', '650', '1046', '2023-08-14 16:35:00'),
+(533, 'Resident Record modified', '', 'Resident Record', '650', '1046', '2023-08-14 16:36:44'),
+(534, 'Resident Record modified', '', 'Resident Record', '650', '1046', '2023-08-14 16:37:25'),
+(535, 'Business Record modified', 'asdsad', 'Business Record', '72b32a1f754ba1c09b3695e0cb6cde7f', '1046', '2023-08-14 16:43:29'),
+(536, 'Resident Record added', 'james karl sadia', 'Resident Record', 'eaae339c4d89fc102edd9dbdb6a28915', '1002', '2023-08-15 11:08:15'),
+(537, 'Resident Record deleted', 'Ray Vince Tan', 'Resident Record', '651', '1002', '2023-08-17 07:08:33'),
+(538, 'Resident Record deleted', 'jacob  cinco', 'Resident Record', '650', '1002', '2023-08-17 07:08:35'),
+(539, 'Resident Record deleted', 'james karl sadia', 'Resident Record', '653', '1002', '2023-08-17 07:08:37'),
+(540, 'Resident Record deleted', 'Jonna  Marcelino', 'Resident Record', '647', '1002', '2023-08-17 07:08:39');
 
 -- --------------------------------------------------------
 
@@ -3749,7 +3841,36 @@ INSERT INTO `tr_login_attempt` (`id`, `rand`, `ip`, `username`, `password`, `sta
 (279, 5995, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-06-15 08:58:42', ''),
 (280, 7336, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-15 15:56:13', ''),
 (281, 3189, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-16 08:57:37', ''),
-(282, 4689, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-19 13:06:18', '');
+(282, 4689, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-19 13:06:18', ''),
+(283, 7709, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-19 15:54:45', ''),
+(284, 3750, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-22 11:39:48', ''),
+(285, 7633, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-22 11:41:47', ''),
+(286, 7841, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-22 11:46:08', ''),
+(287, 5899, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-06-23 15:35:21', ''),
+(288, 7482, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-07-05 08:09:07', ''),
+(289, 4849, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-07-05 14:26:21', ''),
+(290, 8626, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-07-05 16:35:49', ''),
+(291, 8502, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-07-06 08:34:30', ''),
+(292, 5869, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-07-06 12:39:36', ''),
+(293, 3514, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-07-06 17:16:52', ''),
+(294, 2203, '192.168.1.80', 'admin', 'admin', 0, 0, '2023-07-06 17:27:09', ''),
+(295, 3538, '192.168.1.47', 'admin', 'admin', 0, 0, '2023-07-12 08:38:57', ''),
+(296, 5783, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-07-17 14:09:36', ''),
+(297, 2661, '192.168.1.137', 'admin', 'admin', 0, 0, '2023-07-17 15:59:21', ''),
+(298, 2198, '192.168.1.137', 'admin', 'admin', 0, 0, '2023-07-17 15:59:41', ''),
+(299, 1011, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-07-19 10:36:44', ''),
+(300, 1814, '192.168.1.230', 'admin', 'admin', 0, 0, '2023-07-19 16:23:49', ''),
+(301, 5701, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-07-20 08:17:37', ''),
+(302, 3990, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-07-20 14:11:20', ''),
+(303, 2114, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-07-20 14:37:03', ''),
+(304, 3333, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-07-24 08:07:20', ''),
+(305, 2002, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-07-24 10:20:21', ''),
+(306, 5093, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-07-26 08:02:04', ''),
+(307, 7358, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-07-26 09:39:31', ''),
+(308, 1519, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-08-14 11:50:56', ''),
+(309, 5022, '127.0.0.1', 'mtech', 'mTech@23', 0, 0, '2023-08-14 13:22:30', ''),
+(310, 7850, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-08-15 08:57:48', ''),
+(311, 2852, '127.0.0.1', 'admin', 'admin', 0, 0, '2023-08-17 07:08:27', '');
 
 --
 -- Indexes for dumped tables
@@ -3936,6 +4057,12 @@ ALTER TABLE `tbl_pets`
   ADD PRIMARY KEY (`pet_id`);
 
 --
+-- Indexes for table `tbl_project`
+--
+ALTER TABLE `tbl_project`
+  ADD PRIMARY KEY (`p_id`);
+
+--
 -- Indexes for table `tbl_rescue`
 --
 ALTER TABLE `tbl_rescue`
@@ -4082,7 +4209,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `tbl_badak`
 --
 ALTER TABLE `tbl_badak`
-  MODIFY `bdk_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `bdk_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `tbl_bdrrm`
@@ -4094,7 +4221,7 @@ ALTER TABLE `tbl_bdrrm`
 -- AUTO_INCREMENT for table `tbl_blotter`
 --
 ALTER TABLE `tbl_blotter`
-  MODIFY `bl_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=597;
+  MODIFY `bl_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=598;
 
 --
 -- AUTO_INCREMENT for table `tbl_blotter_old`
@@ -4106,13 +4233,13 @@ ALTER TABLE `tbl_blotter_old`
 -- AUTO_INCREMENT for table `tbl_borrowed`
 --
 ALTER TABLE `tbl_borrowed`
-  MODIFY `br_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `br_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT for table `tbl_business`
 --
 ALTER TABLE `tbl_business`
-  MODIFY `b_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `b_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
 
 --
 -- AUTO_INCREMENT for table `tbl_certificate`
@@ -4142,7 +4269,7 @@ ALTER TABLE `tbl_covid_vaccine`
 -- AUTO_INCREMENT for table `tbl_document_request`
 --
 ALTER TABLE `tbl_document_request`
-  MODIFY `dr_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+  MODIFY `dr_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
 
 --
 -- AUTO_INCREMENT for table `tbl_executive`
@@ -4172,61 +4299,67 @@ ALTER TABLE `tbl_inventory_drrm`
 -- AUTO_INCREMENT for table `tbl_lupon`
 --
 ALTER TABLE `tbl_lupon`
-  MODIFY `lpn_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `lpn_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `tbl_lupon_summons`
 --
 ALTER TABLE `tbl_lupon_summons`
-  MODIFY `sm_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `sm_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `tbl_medical_record`
 --
 ALTER TABLE `tbl_medical_record`
-  MODIFY `md_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `md_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `tbl_med_history`
 --
 ALTER TABLE `tbl_med_history`
-  MODIFY `med_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `med_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `tbl_med_inventory`
 --
 ALTER TABLE `tbl_med_inventory`
-  MODIFY `medi_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `medi_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tbl_minutes`
 --
 ALTER TABLE `tbl_minutes`
-  MODIFY `m_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `m_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tbl_new_vwac`
 --
 ALTER TABLE `tbl_new_vwac`
-  MODIFY `vwac_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `vwac_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `tbl_ordinance`
 --
 ALTER TABLE `tbl_ordinance`
-  MODIFY `ord_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ord_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `tbl_patient_info`
 --
 ALTER TABLE `tbl_patient_info`
-  MODIFY `pi_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `pi_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `tbl_pets`
 --
 ALTER TABLE `tbl_pets`
   MODIFY `pet_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1006;
+
+--
+-- AUTO_INCREMENT for table `tbl_project`
+--
+ALTER TABLE `tbl_project`
+  MODIFY `p_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tbl_rescue`
@@ -4238,13 +4371,13 @@ ALTER TABLE `tbl_rescue`
 -- AUTO_INCREMENT for table `tbl_resident`
 --
 ALTER TABLE `tbl_resident`
-  MODIFY `r_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=647;
+  MODIFY `r_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=654;
 
 --
 -- AUTO_INCREMENT for table `tbl_resolution`
 --
 ALTER TABLE `tbl_resolution`
-  MODIFY `re_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4537;
+  MODIFY `re_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4538;
 
 --
 -- AUTO_INCREMENT for table `tbl_vaw`
@@ -4274,13 +4407,13 @@ ALTER TABLE `tbl_vehicle_trip`
 -- AUTO_INCREMENT for table `tbl_vwac`
 --
 ALTER TABLE `tbl_vwac`
-  MODIFY `vwac_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `vwac_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `tr_graph_age`
 --
 ALTER TABLE `tr_graph_age`
-  MODIFY `pop_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8846;
+  MODIFY `pop_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9332;
 
 --
 -- AUTO_INCREMENT for table `tr_graph_cases`
@@ -4310,7 +4443,7 @@ ALTER TABLE `tr_graph_gender`
 -- AUTO_INCREMENT for table `tr_graph_household`
 --
 ALTER TABLE `tr_graph_household`
-  MODIFY `pop_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4567;
+  MODIFY `pop_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4729;
 
 --
 -- AUTO_INCREMENT for table `tr_graph_projects`
@@ -4328,13 +4461,13 @@ ALTER TABLE `tr_graph_votersstatus`
 -- AUTO_INCREMENT for table `tr_log`
 --
 ALTER TABLE `tr_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=501;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=541;
 
 --
 -- AUTO_INCREMENT for table `tr_login_attempt`
 --
 ALTER TABLE `tr_login_attempt`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=283;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=312;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
