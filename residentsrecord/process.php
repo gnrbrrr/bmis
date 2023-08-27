@@ -110,7 +110,7 @@ function add_data()
 	$household_no = mysqli_real_escape_string($link, $_POST['household_no']);
 	$relation_head = mysqli_real_escape_string($link, $_POST['rhof']);
 	$hoa = mysqli_real_escape_string($link, $_POST['hoa']);
-	$head_family = mysqli_real_escape_string($link, $_POST['head_family']);
+	$head_family = isset($_POST['head_family']) ? mysqli_real_escape_string($link, $_POST['head_family']) : '';
 	$voters_status = mysqli_real_escape_string($link, $_POST['voters_status']);
 	$precint_no = mysqli_real_escape_string($link, $_POST['precint_no']);
 	$solo_parent = mysqli_real_escape_string($link, $_POST['solo_parent']);
@@ -224,7 +224,7 @@ function add_data()
 		$geographical_location = "";
 	}
 
-	$status = $_POST['status'];
+	$status = isset($_POST['status']) ? $_POST['status'] : '';
 
 	$images = uploadimage('fileImage', SRV_ROOT . 'images/resident/');
 
@@ -272,7 +272,7 @@ function add_data()
 					VALUES ('Resident Record added', '$resident', 'Resident Record', '$uid', '$userId', '$today_date1')");
 		$log->execute();
     
-		header('Location: index.php?view=add&error=Added successfully');
+		echo "<script>window.location.href='index.php?view=add&error=Added successfully'</script>";
 	}
 	
 }
@@ -456,6 +456,8 @@ function modify_data()
 	$pet3_reg3 = $_POST['pet3_reg3'];
 	$pet3_reg3_date = $_POST['pet3_regdate3'];
 
+	$resident = $fname . ' ' . $mname . ' ' . $lname;
+
 	if($religion == "Others"){
 		$religion = $_POST['other_rel'];
 	}else{
@@ -515,7 +517,6 @@ function modify_data()
 		$log->execute();
                
 		header("Location: index.php?view=modify&id=$id&error=Modified successfully");
-		
 	}
 }
 

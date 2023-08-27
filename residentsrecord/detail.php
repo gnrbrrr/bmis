@@ -1,8 +1,8 @@
 <?php
-if (!defined('WEB_ROOT')) {
-	header('Location: ../index.php');
-	exit;
-}
+	if (!defined('WEB_ROOT')) {
+		header('Location: ../index.php');
+		exit;
+	}
 
 	$id = $_GET['id'];
 
@@ -29,40 +29,39 @@ if (!defined('WEB_ROOT')) {
 		$thumbnail7 = WEB_ROOT . 'images/resident/noimage.png';
 	}
 	
-	$region = $conn->prepare("SELECT * FROM $dbphilippines.table_region WHERE region_id = '$reg'");
-	$region->execute();
-	if($region->rowCount() > 0)
-	{
-		$region_data = $region->fetch();
-		$region_name = $region_data['region_description'];
-	}else{ $region_name = ""; }
+	// $region = $conn->prepare("SELECT * FROM $dbphilippines.table_region WHERE region_id = '$reg'");
+	// $region->execute();
+	// if($region->rowCount() > 0)
+	// {
+	// 	$region_data = $region->fetch();
+	// 	$region_name = $region_data['region_description'];
+	// }else{ $region_name = ""; }
 	
-	$province = $conn->prepare("SELECT * FROM $dbphilippines.table_province WHERE province_id = '$prv'");
-	$province->execute();
-	if($province->rowCount() > 0)
-	{
-		$province_data = $province->fetch();
-		$province_name = $province_data['province_name'];
-	}else{ $province_name = ""; }
+	// $province = $conn->prepare("SELECT * FROM $dbphilippines.table_province WHERE province_id = '$prv'");
+	// $province->execute();
+	// if($province->rowCount() > 0)
+	// {
+	// 	$province_data = $province->fetch();
+	// 	$province_name = $province_data['province_name'];
+	// }else{ $province_name = ""; }
 	
-	$city = $conn->prepare("SELECT * FROM $dbphilippines.table_municipality WHERE municipality_id = '$mun'");
-	$city->execute();
-	if($city->rowCount() > 0)
-	{
-		$city_data = $city->fetch();
-		$city_name = $city_data['municipality_name'];
-	}else{ $city_name = ""; }
+	// $city = $conn->prepare("SELECT * FROM $dbphilippines.table_municipality WHERE municipality_id = '$mun'");
+	// $city->execute();
+	// if($city->rowCount() > 0)
+	// {
+	// 	$city_data = $city->fetch();
+	// 	$city_name = $city_data['municipality_name'];
+	// }else{ $city_name = ""; }
 	
-	$brgy = $conn->prepare("SELECT * FROM $dbphilippines.table_barangay WHERE barangay_id = '$brg'");
-	$brgy->execute();
-	if($brgy->rowCount() > 0)
-	{
-		$brgy_data = $brgy->fetch();
-		$brgy_name = $brgy_data['barangay_name'];
-	}else{ $brgy_name = ""; }
+	// $brgy = $conn->prepare("SELECT * FROM $dbphilippines.table_barangay WHERE barangay_id = '$brg'");
+	// $brgy->execute();
+	// if($brgy->rowCount() > 0)
+	// {
+	// 	$brgy_data = $brgy->fetch();
+	// 	$brgy_name = $brgy_data['barangay_name'];
+	// }else{ $brgy_name = ""; }
 	
-$errorMessage = (isset($_GET['error']) && $_GET['error'] != '') ? $_GET['error'] : '&nbsp;';
-
+	// $errorMessage = (isset($_GET['error']) && $_GET['error'] != '') ? $_GET['error'] : '&nbsp;';
 ?>
 
 <head>
