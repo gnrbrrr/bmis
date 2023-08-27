@@ -1,0 +1,82 @@
+<?php
+require_once 'global-library/config.php';
+require_once 'include/functions.php';
+
+if (isset($_SESSION['user_id'])) {
+	$userId = $_SESSION['user_id'];
+
+	// // check if the user is already logged in on another device/browser
+	// $user = getUserById($userId);
+	// if ($user['logged_in'] == 1) {
+
+	// 	// set a message to display to the user
+	// 	$message = "You are already logged in on another device/browser.";
+
+	// 	// log out the user and set logged_in flag to 0
+	// 	// doLogout();
+	// 	setLoggedInFlag($userId, 0);
+
+	// 	// redirect the user to the login page with the message
+	// 	header("Location: index.php?message=" . urlencode($message));
+	// 	// header("Location: popup.php?message=" . urlencode($message));
+	// 	// header("Location: popup.php");
+	// 	exit;
+	// }
+
+	// // update the logged_in flag to 1
+	// setLoggedInFlag($userId, 1);
+
+	// set expiration date 1 year from today Feb- 16, 2024
+	$expiration_date = strtotime('+1 year');
+
+	// set countdown date 14 days before expiration date -365days
+	$countdown_date = strtotime('-14days', $expiration_date);
+
+	// get current time
+	$today = time();
+
+	// if the countdown date has passed, display the message and disable the page
+	if ($today > $countdown_date) {
+		echo "<script>
+      alert('Your contract will expire in " . ceil(($expiration_date - $today) / (60 * 60 * 24)) . " days. Please contact the system provider to renew the contract.');
+      window.onload = function() {
+        document.addEventListener('mousedown', function(event){
+          event.preventDefault();
+          event.stopPropagation();
+        }, true);
+        document.addEventListener('keydown', function(event){
+          event.preventDefault();
+          event.stopPropagation();
+        }, true);
+      }
+    </script>";
+	}
+
+	// if the expiration date has passed, display the message and disable the page
+	if ($today > $expiration_date) {
+		echo "<script>
+      alert('Your contract has expired. Please contact the system provider to renew the contract.');
+      window.onload = function() {
+        document.addEventListener('mousedown', function(event){
+          event.preventDefault();
+          event.stopPropagation();
+        }, true);
+        document.addEventListener('keydown', function(event){
+          event.preventDefault();
+          event.stopPropagation();
+        }, true);
+      }
+    </script>";
+
+		// continue with the user's session
+	} else {
+		checkUser();
+		$content = 'home.php';
+		$pageTitle = $sett_data['system_title'];
+		$script = array('main.js');
+		require_once 'include/template.php';
+	}
+} else {
+	header('Location: login.php');
+	exit;
+}

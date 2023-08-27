@@ -1,0 +1,140 @@
+<?php
+	$dt1 = $conn->prepare("SELECT * FROM tbl_resident WHERE is_deleted != '1' AND age >= '60'");
+	$dt1->execute();
+	$dt1_num = $dt1->rowCount();
+	
+	$dt2 = $conn->prepare("SELECT * FROM tbl_resident WHERE is_deleted != '1' AND is_soloparent = '1'");
+	$dt2->execute();
+	$dt2_num = $dt2->rowCount();
+	
+	$dt3 = $conn->prepare("SELECT *, SUM(householdno) as total_household FROM tbl_resident WHERE is_deleted != '1' AND is_soloparent = '1'");
+	$dt3->execute();
+	$dt3_num = $dt3->rowCount();
+	$dt3_data = $dt3->fetch();
+	
+	$dt4 = $conn->prepare("SELECT * FROM tbl_resident WHERE is_deleted != '1' AND is_pwd = '1'");
+	$dt4->execute();
+	$dt4_num = $dt4->rowCount();
+	
+	$dt5 = $conn->prepare("SELECT * FROM tbl_resident WHERE is_deleted != '1' AND age <= '6'");
+	$dt5->execute();
+	$dt5_num = $dt5->rowCount();
+	
+	$dt6 = $conn->prepare("SELECT * FROM tbl_resident WHERE is_deleted != '1'");
+	$dt6->execute();
+	$dt6_num = $dt6->rowCount();
+	
+	$dt7 = $conn->prepare("SELECT * FROM bs_registration WHERE is_deleted != '1'");
+	$dt7->execute();
+	$dt7_num = $dt7->rowCount();
+	
+	$dt8 = $conn->prepare("SELECT *, SUM(amount) as total_amount FROM tbl_document_request WHERE is_deleted != '1'");
+	$dt8->execute();
+	$dt8_num = $dt8->rowCount();
+	$dt8_data = $dt8->fetch();
+	
+	$dt9 = $conn->prepare("SELECT * FROM tr_graph_cases WHERE status = 'Unsettled'");
+	$dt9->execute();
+	$dt9_num = $dt9->rowCount();
+	$dt9_data = $dt9->fetch();
+
+?>
+	<div class="row">
+		<div class="col-md-3 col-sm-12">
+			<div class="white-box bg-primary color-box">
+				<h1 class="text-white font-light"><a href="<?php echo WEB_ROOT; ?>registration/" style="color:#ffffff;"><?php echo $dt7_num; ?></a> <span class="font-14">New Registration</span></h1>
+				<div class="ct-revenue chart-pos"></div>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="white-box bg-success color-box">
+				<h1 class="text-white font-light">10 <span class="font-14">New Request</span></h1>
+				<div class="ct-revenue chart-pos"></div>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="white-box bg-warning color-box">
+				<h1 class="text-white font-light">&#8369;<?php echo number_format($dt8_data['total_amount'], 2); ?> <span class="font-14">Sales</span></h1>
+				<div class="ct-revenue chart-pos"></div>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-12">
+			<div class="white-box bg-danger color-box">
+				<h1 class="text-white font-light"><?php echo $dt9_data['total']; ?> <span class="font-14">Unsettled Cases</span></h1>
+				<div class="ct-revenue chart-pos"></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="white-box" style="background-color:transparent;">
+				<h3 class="box-title m-b-0">Gender</h3>
+				<?php include 'graph/gender_process.php'; ?>
+				<br />
+				<h3 class="box-title m-b-0">Employee Status</h3>
+				<?php include 'graph/employeestatus_process.php'; ?>
+				<br />
+				<h3 class="box-title m-b-0">Cases</h3>
+				<?php include 'graph/cases_process.php'; ?>
+			</div>
+		</div>
+		
+		<div class="col-sm-4">
+			<div class="white-box">
+				<h3 class="box-title m-b-0">Civil Status</h3>
+				<?php include 'graph/civilstatus_process.php'; ?>
+				<br />
+				<h3 class="box-title m-b-0">Voter Status</h3>
+				<?php include 'graph/votersstatus_process.php'; ?>
+				<br />
+				<h3 class="box-title m-b-0">Projects</h3>
+				<?php include 'graph/projects_process.php'; ?>
+			</div>
+		</div>
+		
+		<div class="col-sm-4">
+			<div class="white-box">
+				<div class="media bg-warning">
+					<div class="media-body">
+						<h3> <span class="pull-right"><img src="<?php echo WEB_ROOT; ?>images/population.png" /></span></h3>
+						<p class="info-text font-12"></p>
+						<p style="font-size:21px; font-weight:bolder;"><b style="font-size:37px; font-weight:bolder; color:#ffffcc;"><?php echo $dt6_num; ?></b> POPULATION</p>
+					</div>
+				</div>
+				<div class="media bg-primary">
+					<div class="media-body">
+						<h3> <span class="pull-right"><img src="<?php echo WEB_ROOT; ?>images/senior.png" /></span></h3>						
+						<p style="font-size:21px; font-weight:bolder;"><b style="font-size:37px; font-weight:bolder; color:#ffffcc;"><?php echo $dt1_num; ?></b> TOTAL SENIOR</p>
+					</div>
+				</div>
+				<div class="media bg-success">
+					<div class="media-body">
+						<h3> <span class="pull-right"><img src="<?php echo WEB_ROOT; ?>images/solo.png" /></span></h3>						
+						<p style="font-size:21px; font-weight:bolder;"><b style="font-size:37px; font-weight:bolder; color:#ffffcc;"><?php echo $dt2_num; ?></b> SOLO PARENT</p>
+					</div>
+				</div>
+				<div class="media bg-danger">
+					<div class="media-body">
+						<h3> <span class="pull-right"><img src="<?php echo WEB_ROOT; ?>images/house.png" /></span></h3>
+						<p class="info-text font-12"></p>
+						<p style="font-size:21px; font-weight:bolder;"><b style="font-size:37px; font-weight:bolder; color:#ffffcc;"><?php echo $dt3_data['total_household']; ?></b> HOUSEHOLD</p>
+					</div>
+				</div>
+				<div class="media bg-warning">
+					<div class="media-body">
+						<h3> <span class="pull-right"><img src="<?php echo WEB_ROOT; ?>images/pwd.png" /></span></h3>
+						<p class="info-text font-12"></p>
+						<p style="font-size:21px; font-weight:bolder;"><b style="font-size:37px; font-weight:bolder; color:#ffffcc;"><?php echo $dt4_num; ?></b> TOTAL PWD</p>
+					</div>
+				</div>
+				<div class="media bg-info">
+					<div class="media-body">
+						<h3> <span class="pull-right"><img src="<?php echo WEB_ROOT; ?>images/baby.png" /></span></h3>
+						<p class="info-text font-12"></p>
+						<p style="font-size:21px; font-weight:bolder;"><b style="font-size:37px; font-weight:bolder; color:#ffffcc;"><?php echo $dt5_num; ?></b> AGED 0-6</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	

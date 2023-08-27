@@ -1,0 +1,7 @@
+[14-Sep-2022 17:23:09 Asia/Manila] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dblqfkce6odzep.tbl_lupon' doesn't exist in /home/customer/www/bmis.triapps.co/public_html/case/list.php:8
+Stack trace:
+#0 /home/customer/www/bmis.triapps.co/public_html/case/list.php(8): PDOStatement->execute()
+#1 /home/customer/www/bmis.triapps.co/public_html/include/template.php(53): require_once('/home/customer/...')
+#2 /home/customer/www/bmis.triapps.co/public_html/case/index.php(85): require_once('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/bmis.triapps.co/public_html/case/list.php on line 8
