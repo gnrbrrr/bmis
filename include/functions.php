@@ -59,11 +59,6 @@ function doLogin()
 		if ($stmt->rowCount() == 1) {
 			$row = $stmt->fetch();
 
-			if ($row['logged_in'] == 1) {
-				// user is already logged in on another device
-				$errorMessage = 'You are already logged in on another device';
-				echo "<script>alert('You are already logged in on another device!');</script>";
-			} else {
 				$_SESSION['user_id'] = $row['user_id'];
 				$sql1 = $conn->prepare("UPDATE bs_user SET logged_in = '1' WHERE user_id = '{$row['user_id']}'");
 				$sql1->execute();
@@ -90,7 +85,6 @@ function doLogin()
 					header('Location: index.php');
 					exit;
 				}
-			}
 		} else {
 
 			/* Process the log attempt for security. Set 1 for unauthorized user */
